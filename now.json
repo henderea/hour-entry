@@ -17,6 +17,5 @@
             "src": "/(.*)",
             "dest": "$1"
         }
-    ],
-    "alias": "hour-entry.henderea.com"
+    ]
 }

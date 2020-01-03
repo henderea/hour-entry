@@ -13,13 +13,13 @@
     "watch": "static-site-builder watch",
     "clean": "rm -rf dist build",
     "stage": "now --target staging",
-    "deploy": "now --target production && now rm hour-entry --safe --yes"
+    "deploy": "now --prod && now rm hour-entry --safe --yes"
   },
   "author": "henderea",
   "license": "ISC",
   "repository": "https://github.com/henderea/hour-entry",
   "devDependencies": {
-    "@henderea/static-site-builder": "^1.2.30",
+    "@henderea/static-site-builder": "^1.2.31",
     "chalk": "^3.0.0",
     "concurrently": "^5.0.2",
     "diff": "^4.0.1",

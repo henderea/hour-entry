@@ -5,8 +5,8 @@ const _ = require('lodash');
 // const rand = require('lodash/random');
 const moment = require('moment');
 
-// import registerServiceWorker from '@henderea/static-site-builder/registerServiceWorker';
-// registerServiceWorker();
+import registerServiceWorker from '@henderea/static-site-builder/registerServiceWorker';
+registerServiceWorker();
 
 $(function() {
     let storedContent = window.localStorage.getItem('user-content');

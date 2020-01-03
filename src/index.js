@@ -42,6 +42,9 @@ function formatTime(mins) {
     if(mins < 60) {
         return `${mins}m`;
     }
+    if(mins % 60 == 0) {
+        return `${Math.floor(mins / 60)}h`;
+    }
     return `${Math.floor(mins / 60)}h ${mins % 60}m`;
 }
 

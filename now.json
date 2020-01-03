@@ -1,0 +1,22 @@
+{
+    "version": 2,
+    "name": "hour-entry",
+    "public": false,
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "@now/static-build"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/",
+            "dest": "index.html"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "$1"
+        }
+    ],
+    "alias": "hour-entry.henderea.com"
+}

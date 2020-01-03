@@ -1,0 +1,95 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.editor-holder {
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  border-radius: 3px;
+  position: relative;
+  top: 0;
+  background: #1f1f1f !important;
+  overflow: auto;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.4);
+  transition: all 0.5s ease-in-out;
+
+  #editor,
+  #display {
+    width: 100%;
+    height: auto;
+    min-height: 450px;
+    font-size: 14px;
+    border: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    padding: 20px !important;
+    line-height: 21px;
+    position: absolute;
+    font-family: 'Operator Mono', Consolas, Liberation Mono, Courier, monospace;
+    overflow: visible;
+  }
+
+  #editor {
+    background: transparent !important;
+    z-index: 2;
+    height: auto;
+    resize: none;
+    color: #fff;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+
+    &::-webkit-input-placeholder {
+      color: rgba(255, 255, 255, 1);
+    }
+
+    &:focus {
+      outline: 0;
+      border: 0;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+    }
+  }
+
+  #display {
+    z-index: 1;
+  }
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  #display {
+    background: #1f1f1f !important;
+    color: #adadad;
+
+    .hl {
+      white-space: pre;
+      font-family: 'Operator Mono', Consolas, Liberation Mono, Courier, monospace;
+      font-size: 14px;
+      background-color: transparent;
+      margin: 0;
+      padding: 0;
+    }
+    .hl-label {
+      color: #29f;
+    }
+    .hl-colon {
+      color: #4d6;
+    }
+    .hl-value {
+      color: #d66;
+    }
+    .hl-unit {
+      color: #da2;
+    }
+  }
+}

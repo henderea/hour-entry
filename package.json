@@ -31,13 +31,12 @@
     "jquery": "^3.4.1",
     "jquery-ui": "^1.12.1",
     "lodash": "^4.17.15",
-    "moment": "^2.24.0",
-    "moment-timezone": "^0.5.27"
+    "moment": "^2.24.0"
   },
   "htmlMeta": {
-    "type": "",
-    "title": "",
-    "description": "",
+    "type": "website",
+    "title": "Hour Entry Scratchpad",
+    "description": "A auto-calculating scratchpad for entering hours",
     "siteName": "JS Demos - henderea.com"
   }
 }

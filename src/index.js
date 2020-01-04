@@ -1,10 +1,10 @@
 require('./index.scss');
 const $ = require('jquery');
-const { storage, correctTextareaHeight, processSyntax } = require('./util');
+const { storage, correctTextareaHeight, processSyntax } = require('../lib/util');
 
 import registerServiceWorker from '@henderea/static-site-builder/registerServiceWorker';
 const nodeEnv = process.env.NODE_ENV;
-if(nodeEnv == 'production') {
+if(nodeEnv != 'development') {
     registerServiceWorker();
 }
 

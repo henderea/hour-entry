@@ -4,9 +4,14 @@ const $ = require('jquery');
 const _ = require('lodash');
 // const rand = require('lodash/random');
 const moment = require('moment');
+require('moment-range').extendMoment(moment);
 
 import registerServiceWorker from '@henderea/static-site-builder/registerServiceWorker';
-registerServiceWorker();
+let nodeEnv = process.env.NODE_ENV;
+if(nodeEnv != 'development') {
+    console.log('hi');
+    registerServiceWorker();
+}
 
 $(function() {
     let storedContent = window.localStorage.getItem('user-content');
@@ -61,21 +66,32 @@ function highlightSyntax() {
     var lines = _.split(escaped, /\n/g);
     let titleLine = -1;
     let currentTotal = 0;
+    let dates = [];
+    let ranges = [];
+    let rangeRegex = /^(\d{1,2}\/\d{1,2}\/\d{4})\s*-\s*(\d{1,2}\/\d{1,2}\/\d{4}):\s*$/;
+    let dateRegex = /(\d{1,2}\/\d{1,2}\/\d{4}):/;
     _.each(lines, (l, i) => {
-        if(/^.*:\s*$/.test(l) && titleLine < 0) {
+        if(rangeRegex.test(l)) {
+            let m = rangeRegex.exec(l);
+            ranges.push({ range: moment.range(moment(m[1], 'MM/DD/YYYY'), moment(m[2], 'MM/DD/YYYY')), line: i });
+        } else if(/^.*:\s*$/.test(l) && titleLine < 0) {
             titleLine = i;
         } else if(/^\s*$/.test(l)) {
             if(titleLine >= 0) {
                 let tl = lines[titleLine];
+                if(dateRegex.test(tl)) {
+                    let m = dateRegex.exec(tl);
+                    dates.push({ date: moment(m[1], 'MM/DD/YYYY'), value: currentTotal });
+                }
                 if(/\s+$/.test(tl)) {
                     tl = tl + formatTime(currentTotal);
                 } else {
                     tl = tl + ' ' + formatTime(currentTotal);
                 }
                 lines[titleLine] = tl;
-                titleLine = -1;
-                currentTotal = 0;
             }
+            titleLine = -1;
+            currentTotal = 0;
         } else {
             let p1 = /^.*:\s*(\d+(?:\.\d+)?|\.\d+)\s*(h|m)?\s*$/;
             let p2 = /^.*:\s*(\d+(?:\.\d+)?|\.\d+)\s*h\s*(\d+(?:\.\d+)?|\.\d+)\s*m?\s*$/;
@@ -98,8 +114,29 @@ function highlightSyntax() {
             mins = Math.round(mins);
             if(!_.isNaN(mins)) {
                 currentTotal += mins;
+                if(dateRegex.test(l)) {
+                    let m = dateRegex.exec(l);
+                    dates.push({ date: moment(m[1], 'MM/DD/YYYY'), value: mins });
+                }
             }
         }
+    });
+    _.each(ranges, r => {
+        let { range, line } = r;
+        let total = 0;
+        _.each(dates, d => {
+            let {date, value} = d;
+            if(range.contains(date)) {
+                total += value;
+            }
+        })
+        let rl = lines[line];
+        if(/\s+$/.test(rl)) {
+            rl = rl + formatTime(total);
+        } else {
+            rl = rl + ' ' + formatTime(total);
+        }
+        lines[line] = rl;
     });
     if(titleLine >= 0) {
         let tl = lines[titleLine];

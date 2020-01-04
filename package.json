@@ -10,7 +10,7 @@
     "start": "concurrently \"yarn serve:dev\" \"yarn watch\" --names \"💻,📦\" --prefix name",
     "build": "static-site-builder build",
     "now-build": "static-site-builder build",
-    "watch": "static-site-builder watch",
+    "watch": "NODE_ENV=development static-site-builder watch",
     "clean": "rm -rf dist build",
     "stage": "now --target staging",
     "deploy": "now --prod && now rm hour-entry --safe --yes"
@@ -31,7 +31,8 @@
     "jquery": "^3.4.1",
     "jquery-ui": "^1.12.1",
     "lodash": "^4.17.15",
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "moment-range": "^4.0.2"
   },
   "htmlMeta": {
     "type": "website",

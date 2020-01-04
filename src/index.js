@@ -9,11 +9,13 @@ if(nodeEnv != 'development') {
 }
 
 $(function() {
-    storage.load('#editor');
+    const $editor = $('#editor');
+    storage.load($editor);
+    correctTextareaHeight($editor);
     processSyntax('#editor', '#display');
 
-    $('#editor').on('keyup keydown change', function() {
-        storage.save('#editor');
+    $editor.on('keyup keydown change', function() {
+        storage.save(this);
         correctTextareaHeight(this);
         processSyntax('#editor', '#display');
     });

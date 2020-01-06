@@ -1,10 +1,10 @@
 <%
-    const packageJson = require('../package.json')
-    const title = (packageJson.htmlMeta && packageJson.htmlMeta.title) || packageJson.name
-    const description = (packageJson.htmlMeta && packageJson.htmlMeta.description) || packageJson.description
-    const type = (packageJson.htmlMeta && packageJson.htmlMeta.type) || 'website'
-    const siteName = (packageJson.htmlMeta && packageJson.htmlMeta.siteName) || null
-    const baseIcon = (packageJson.htmlMeta && packageJson.htmlMeta.icon && packageJson.htmlMeta.icon.trim().toLowerCase()) || null
+    const packageJson = require('../package.json');
+    const title = (packageJson.htmlMeta && packageJson.htmlMeta.title) || packageJson.name;
+    const description = (packageJson.htmlMeta && packageJson.htmlMeta.description) || packageJson.description;
+    const type = (packageJson.htmlMeta && packageJson.htmlMeta.type) || 'website';
+    const siteName = (packageJson.htmlMeta && packageJson.htmlMeta.siteName) || null;
+    const baseIcon = (packageJson.htmlMeta && packageJson.htmlMeta.icon && packageJson.htmlMeta.icon.trim().toLowerCase()) || null;
     let iconUrl = null;
     if(baseIcon && baseIcon != '') {
         if(/^gravatar:(\S+)$/.test(baseIcon)) {

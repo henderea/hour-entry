@@ -4,6 +4,24 @@
     const description = (packageJson.htmlMeta && packageJson.htmlMeta.description) || packageJson.description
     const type = (packageJson.htmlMeta && packageJson.htmlMeta.type) || 'website'
     const siteName = (packageJson.htmlMeta && packageJson.htmlMeta.siteName) || null
+    const baseIcon = (packageJson.htmlMeta && packageJson.htmlMeta.icon && packageJson.htmlMeta.icon.trim().toLowerCase()) || null
+    let iconUrl = null;
+    if(baseIcon && baseIcon != '') {
+        if(/^gravatar:(\S+)$/.test(baseIcon)) {
+            const gravatarParam = baseIcon.replace(/^gravatar:(\S+)$/, '$1');
+            let gravatarHash = null;
+            if(/^\S+@\S+\.\S+/.test(gravatarParam)) {
+                gravatarHash = require('md5')(gravatarParam);
+            } else if(/^[0-9a-f]{32}$/.test(gravatarParam)) {
+                gravatarHash = gravatarParam;
+            }
+            if(gravatarHash) {
+                iconUrl = `https://www.gravatar.com/avatar/${gravatarHash}.jpg?s=400`;
+            }
+        } else if(/^https?:\/\//.test(baseIcon)) {
+            iconUrl = baseIcon;
+        }
+    }
  %>
 <html>
     <head>
@@ -13,6 +31,10 @@
         <meta property="og:description" content="<%= description %>"/>
         <% if(siteName) { %>
         <meta property="og:site_name" content="<%= siteName %>"/>
+        <% } %>
+        <% if(iconUrl) { %>
+        <meta property="og:image" content="<%= iconUrl %>"/>
+        <link rel="icon" type="image/jpeg" href="<%= iconUrl %>"/>
         <% } %>
         <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7132534/7654172/css/fonts.css" />
     </head>

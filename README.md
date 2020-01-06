@@ -1,15 +1,33 @@
-# webpack-template
+# hour-entry
+A tool for hour tracking.  <https://hour-entry.henderea.com>
 
-## PLEASE REPLACE THIS README AND UPDATE THE METADATA IN PACKAGE.JSON AFTER COPYING
+## Using the Tool
+The tool uses the format `label: 1h`.  You can have multiple labels on the same line, but only 1 time value is allowed per line.  Valid formats are `1h`, `0.5h`, `.5h`, `30m`, `1h 30m`, `1h 30` (assumes minutes for the second number) and `1` (assumes hours when no unit provided).
 
-## Using
+If you place a label without any value on a line, it will show the total of the lines in the same group, going until it encounters a blank line or the end of the document.  You can also use a date range in the format `MM/DD/YYYY - MM/DD/YYYY:` on its own line to show the total for all lines and groups with dates (formatted as `MM/DD/YYYY`) in that range.
 
-See [this gist](https://gist.github.com/henderea/764b427cde1a7fa562b7fe8427aedb51) for a script that can set up a new project with this template for you.
+The tool will highlight the syntax as you type, and the data you enter is stored in the browser's `localStorage`, automatically loaded each time you open the page in the same browser/profile.
 
-The script from the gist can be installed to `~/bin` with the following command (also posted in a comment on the gist):
+## To Set Up
 
 ```shell
-curl -sSL "https://gist.github.com/henderea/764b427cde1a7fa562b7fe8427aedb51/raw/create-webpack.sh" -o ~/bin/create-webpack.sh
+$ yarn
 ```
 
-You can replace the path at the end of the command with another if preferred.  Make sure to mark it as executable and have the location in your `PATH`.
+## To Test
+
+```shell
+$ yarn start
+```
+
+## To Build for Production
+
+```shell
+$ yarn build
+```
+
+## To Deploy to now.sh
+
+```shell
+$ yarn deploy
+```

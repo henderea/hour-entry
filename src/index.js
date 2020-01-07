@@ -13,6 +13,7 @@ $(function() {
     storage.load($editor);
     correctTextareaHeight($editor);
     processSyntax('#editor', '#display');
+    $editor.focus();
 
     $editor.on('keyup keydown change', function() {
         storage.save(this);

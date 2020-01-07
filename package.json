@@ -33,7 +33,8 @@
     "jquery-ui": "^1.12.1",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
-    "moment-range": "^4.0.2"
+    "moment-range": "^4.0.2",
+    "query-string": "^6.9.0"
   },
   "momentLocales": "",
   "htmlMeta": {

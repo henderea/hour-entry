@@ -19,7 +19,7 @@
   "license": "ISC",
   "repository": "https://github.com/henderea/hour-entry",
   "devDependencies": {
-    "@henderea/static-site-builder": "^1.4.0",
+    "@henderea/static-site-builder": "^1.4.1",
     "concurrently": "^5.1.0",
     "eslint": "^6.8.0",
     "md5": "^2.2.1",
@@ -30,7 +30,7 @@
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "moment-range": "^4.0.2",
-    "query-string": "^6.10.1"
+    "query-string": "^6.11.0"
   },
   "staticSiteBuilderConfig": {
     "momentLocales": ""

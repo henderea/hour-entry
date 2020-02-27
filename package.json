@@ -19,7 +19,7 @@
   "license": "ISC",
   "repository": "https://github.com/henderea/hour-entry",
   "devDependencies": {
-    "@henderea/static-site-builder": "^1.4.1",
+    "@henderea/static-site-builder": "^1.4.2",
     "concurrently": "^5.1.0",
     "eslint": "^6.8.0",
     "md5": "^2.2.1",

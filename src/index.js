@@ -4,7 +4,7 @@ import { storage, correctTextareaHeight, processSyntax, colors } from '../lib/ut
 
 import registerServiceWorker from '@henderea/static-site-builder/registerServiceWorker';
 const nodeEnv = process.env.NODE_ENV;
-if(nodeEnv != 'development') {
+if(nodeEnv !== 'development') {
     registerServiceWorker();
 }
 

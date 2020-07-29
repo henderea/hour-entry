@@ -1,42 +1,32 @@
 <%
-    const packageJson = require('../package.json');
-    const title = (packageJson.htmlMeta && packageJson.htmlMeta.title) || packageJson.name;
-    const description = (packageJson.htmlMeta && packageJson.htmlMeta.description) || packageJson.description;
-    const type = (packageJson.htmlMeta && packageJson.htmlMeta.type) || 'website';
-    const siteName = (packageJson.htmlMeta && packageJson.htmlMeta.siteName) || null;
-    const baseIcon = (packageJson.htmlMeta && packageJson.htmlMeta.icon && packageJson.htmlMeta.icon.trim().toLowerCase()) || null;
-    let iconUrl = null;
-    if(baseIcon && baseIcon != '') {
-        if(/^gravatar:(\S+)$/.test(baseIcon)) {
-            const gravatarParam = baseIcon.replace(/^gravatar:(\S+)$/, '$1');
-            let gravatarHash = null;
-            if(/^\S+@\S+\.\S+/.test(gravatarParam)) {
-                gravatarHash = require('md5')(gravatarParam);
-            } else if(/^[0-9a-f]{32}$/.test(gravatarParam)) {
-                gravatarHash = gravatarParam;
-            }
-            if(gravatarHash) {
-                iconUrl = `https://www.gravatar.com/avatar/${gravatarHash}.jpg?s=400`;
-            }
-        } else if(/^https?:\/\//.test(baseIcon)) {
-            iconUrl = baseIcon;
-        }
-    }
- %>
-<html>
+const packageJson = require('../package.json');
+const publicUrl = process.env.PUBLIC_URL;
+const title = (packageJson.htmlMeta && packageJson.htmlMeta.title) || packageJson.name;
+const description = (packageJson.htmlMeta && packageJson.htmlMeta.description) || packageJson.description;
+const type = (packageJson.htmlMeta && packageJson.htmlMeta.type) || 'website';
+const siteName = (packageJson.htmlMeta && packageJson.htmlMeta.siteName) || null;
+const themeColor = (packageJson.htmlMeta && packageJson.htmlMeta.themeColor) || null;
+%>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
     <head>
         <title><%= title %></title>
-        <meta property="og:type" content="<%= type %>"/>
-        <meta property="og:title" content="<%= title %>"/>
-        <meta property="og:description" content="<%= description %>"/>
+        <meta property="og:type" content="<%= type %>" />
+        <meta property="og:title" content="<%= title %>" />
+        <meta property="og:description" content="<%= description %>" />
+        <meta name="description" content="<%= description %>" />
         <% if(siteName) { %>
-        <meta property="og:site_name" content="<%= siteName %>"/>
+            <meta property="og:site_name" content="<%= siteName %>" />
         <% } %>
-        <% if(iconUrl) { %>
-        <meta property="og:image" content="<%= iconUrl %>"/>
-        <link rel="icon" type="image/jpeg" href="<%= iconUrl %>"/>
-        <% } %>
+        <link rel="icon" href="<%= publicUrl %>/favicon.svg" type="image/svg+xml" />
+        <link rel="shortcut icon" href="<%= publicUrl %>/favicon.svg" type="image/svg+xml" />
         <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7132534/7654172/css/fonts.css" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <link rel="manifest" href="<%= publicUrl %>/manifest.json" />
+        <% if(themeColor) { %>
+            <meta name="theme-color" content="<%= themeColor %>" />
+        <% } %>
     </head>
     <body>
         <div class="editor-holder">

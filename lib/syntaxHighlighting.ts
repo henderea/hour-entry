@@ -1,10 +1,12 @@
+import type { LineHighlightLineState } from './classes/LineHighlightLineState';
+
 import _each from 'lodash/each.js';
 import queryString  from 'query-string';
 import { empty } from './classes/helpers';
 import { LineHighlightState } from './classes/LineHighlightState';
 
-function processLine(s, state) {
-  s.eachChar((c) => {
+function processLine(s: LineHighlightLineState, state: LineHighlightState) {
+  s.eachChar((c: string) => {
     if(!s.hasText) {
       s.addChar();
       return false;
@@ -68,30 +70,30 @@ function processLine(s, state) {
   }
 }
 
-function lineStateFormatter(s, colors) {
-  let parts = s.mapPieces((text, type, trimmedText, _p) => {
-    let color = colors[text] || colors[trimmedText];
-    let extra = (type === 'label' && color) ? `style="color: ${color};"` : '';
+function lineStateFormatter(s: LineHighlightLineState, colors: Dictionary<string | null>): string {
+  const parts: string[] = s.mapPieces((text: string, type: string | null, trimmedText: string) => {
+    const color: string | null = colors[text] || colors[trimmedText];
+    const extra: string = (type === 'label' && color) ? `style="color: ${color};"` : '';
     return type ? `<span class="hl hl-${type}"${extra}>${text}</span>` : text;
   });
   return parts.join('');
 }
 
-const cleanedColorPattern = /^#([\da-f]{3}|[\da-f]{6})$/;
+const cleanedColorPattern: RegExp = /^#([\da-f]{3}|[\da-f]{6})$/;
 
-export function updateColors() {
-  let colorStr = window.localStorage.getItem('colors') || '';
-  let colors = {};
-  _each(colorStr.split(/\|/g), (p) => {
-    let parts = p.split(/=/);
+export function updateColors(): Dictionary<string | null> {
+  const colorStr: string = window.localStorage.getItem('colors') || '';
+  const colors: Dictionary<string | null> = {};
+  _each(colorStr.split(/\|/g), (p: string) => {
+    const parts: string[] = p.split(/=/);
     if(parts && parts.length === 2 && !empty(parts[0]) && parts[1] && cleanedColorPattern.test(parts[1])) {
       colors[parts[0]] = parts[1];
     }
   });
-  const parsed = queryString.parse(window.location.search);
-  _each(Object.keys(parsed), (k) => {
-    let color = decodeURIComponent(parsed[k]);
-    let key = decodeURIComponent(k);
+  const parsed: queryString.ParsedQuery = queryString.parse(window.location.search);
+  _each(Object.keys(parsed), (k: string) => {
+    let color: string = decodeURIComponent(parsed[k] as string);
+    const key: string = decodeURIComponent(k);
     if(/^#?([\da-f]{3}|[\da-f]{6})$/i.test(color)) {
       if(!/^#/.test(color)) { color = `#${color}`; }
       colors[key] = color.toLowerCase();
@@ -99,9 +101,9 @@ export function updateColors() {
       colors[key] = null;
     }
   });
-  let colorArr = [];
+  const colorArr: string[] = [];
   _each(Object.keys(colors), (k) => {
-    if(!empty(k) && colors[k] && cleanedColorPattern.test(colors[k])) {
+    if(!empty(k) && colors[k] && cleanedColorPattern.test(colors[k] as string)) {
       colorArr.push(`${k}=${colors[k]}`);
     }
   });
@@ -109,6 +111,6 @@ export function updateColors() {
   return colors;
 }
 
-export function highlightSyntax(lines, colors) {
+export function highlightSyntax(lines: string[], colors: Dictionary<string | null>) {
   return new LineHighlightState(lines, colors, lineStateFormatter).processLines(processLine);
 }

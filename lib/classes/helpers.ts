@@ -1,11 +1,13 @@
+import type { Moment } from 'moment';
+
 import _map from 'lodash/map.js';
 import _isNil from 'lodash/isNil.js';
 import _compact from 'lodash/compact.js';
-import moment from 'moment';
+import _moment from 'moment';
 import { extendMoment } from 'moment-range';
-extendMoment(moment);
+const moment = extendMoment(_moment);
 
-function formatTime(mins) {
+function formatTime(mins: number): string {
   if(mins < 60) {
     return `${mins}m`;
   }
@@ -15,8 +17,8 @@ function formatTime(mins) {
   return `${Math.floor(mins / 60)}h ${mins % 60}m`;
 }
 
-function appendTotal(line, total) {
-  const formattedTotal = formatTime(total);
+function appendTotal(line: string, total: number): string {
+  const formattedTotal: string = formatTime(total);
   if(/\s+$/.test(line)) {
     return `${line}${formattedTotal}`;
   } else {
@@ -24,29 +26,31 @@ function appendTotal(line, total) {
   }
 }
 
-function determineIndex(index) {
-  if(!_isNil(index.lineNumber)) { return index.lineNumber; }
-  return index;
+export type IndexValue = { lineNumber: number } | number;
+
+function determineIndex(index: IndexValue): number {
+  if(typeof index == 'number') { return index; }
+  return index.lineNumber;
 }
 
-function ensureMoment(m) {
+function ensureMoment(m: Moment | string): Moment {
   if(moment.isMoment(m)) { return m; }
   return moment(m, 'MM/DD/YYYY');
 }
 
-function asArray(a) {
+function asArray<T>(a: T | T[]): T[] {
   return Array.isArray(a) ? a : [a];
 }
 
-function getItem(a, i) {
+function getItem<T>(a: T[] | null, i: number): T | null {
   return a && a[i];
 }
 
-function empty(s) {
+function empty<T>(s: T[] | string | null | undefined): s is [] | '' | null | undefined {
   return !s || s.length <= 0;
 }
 
-function cleanLabels(labels) {
+function cleanLabels(labels: string[]): string[] {
   return _compact(_map(labels, (l) => !empty(l) && /\S/.test(l) && l.trim()));
 }
 
@@ -59,5 +63,6 @@ export {
   asArray,
   getItem,
   empty,
-  cleanLabels
+  cleanLabels,
+  Moment
 };

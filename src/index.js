@@ -5,20 +5,20 @@ import { storage, correctTextareaHeight, processSyntax, colors } from '../lib/ut
 import registerServiceWorker from '@henderea/static-site-builder/registerServiceWorker';
 const nodeEnv = process.env.NODE_ENV;
 if(nodeEnv !== 'development') {
-    registerServiceWorker();
+  registerServiceWorker();
 }
 
 $(function() {
-    colors.updateColors();
-    const $editor = $('#editor');
-    storage.load($editor);
-    correctTextareaHeight($editor);
-    processSyntax('#editor', '#display');
-    $editor.focus();
+  colors.updateColors();
+  const $editor = $('#editor');
+  storage.load($editor);
+  correctTextareaHeight($editor);
+  processSyntax('#editor', '#display');
+  $editor.focus();
 
-    $editor.on('keyup keydown change', function() {
-        storage.save(this);
-        correctTextareaHeight(this);
-        processSyntax('#editor', '#display');
-    });
+  $editor.on('keyup keydown change', function() {
+    storage.save(this);
+    correctTextareaHeight(this);
+    processSyntax('#editor', '#display');
+  });
 });

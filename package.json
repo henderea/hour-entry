@@ -16,7 +16,10 @@
   },
   "author": "henderea",
   "license": "ISC",
-  "repository": "https://github.com/henderea/hour-entry",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henderea/hour-entry.git"
+  },
   "devDependencies": {
     "@henderea/static-site-builder": "^1.10.19",
     "browser-sync": "^3.0.2",

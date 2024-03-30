@@ -12,17 +12,14 @@ function makePiece(text: string | string[], type: string | null): Piece {
 
 export class LineHighlightLineState {
   private readonly _line: string;
-  private _currentIndex: number;
+  private _currentIndex: number = -1;
   private _chars: string[];
-  private _currentText: string;
-  private _pieces: Piece[];
+  private _currentText: string = '';
+  private _pieces: Piece[] = [];
 
   constructor(line: string) {
     this._line = line;
-    this._currentIndex = -1;
     this._chars = line.split('');
-    this._currentText = '';
-    this._pieces = [];
   }
 
   get line(): string { return this._line; }
@@ -40,6 +37,7 @@ export class LineHighlightLineState {
   get remainingChars(): string[] { return this.chars.slice(this.currentIndex + 1); }
   get remainingText(): string { return this.remainingChars.join(''); }
   get newText(): string { return this.currentText + this.currentChar; }
+
   addChar(): void { this._currentText += this.currentChar; }
   addPiece(text: string, type: string | null = null): void { this._pieces.push(makePiece(text, type)); }
   setPiece(index: number, text: string, type: string | null = null): void { this._pieces[index] = makePiece(text, type); }
@@ -50,6 +48,7 @@ export class LineHighlightLineState {
   onChar(...chars: string[]): boolean { return chars.includes(this.currentChar); }
   remainingTextMatches(r: RegExp): boolean { return r.test(this.remainingText); }
   textPart(r: RegExp, i: number): string { return getItem(r.exec(this.currentText), i) as string; }
+
   eachChar(f: (currentChar: string, currentIndex: number) => boolean): void {
     for(this._currentIndex = 0; this._currentIndex < this.lineLength; this._currentIndex++) {
       const shouldReset: boolean = f(this.currentChar, this.currentIndex);

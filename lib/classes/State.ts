@@ -11,23 +11,16 @@ import { LabelEntry } from './LabelEntry';
 
 export class State {
   private readonly _lines: string[];
-  private _currentGroup: GroupEntry | null;
-  private _currentTotal: number;
-  private readonly _dates: DateEntry[];
-  private readonly _ranges: RangeEntry[];
-  private readonly _groups: GroupEntry[];
-  private readonly _rows: LineEntry[];
-  private readonly _labelRows: LabelEntry[];
+  private _currentGroup: GroupEntry | null = null;
+  private _currentTotal: number = 0;
+  private readonly _dates: DateEntry[] = [];
+  private readonly _ranges: RangeEntry[] = [];
+  private readonly _groups: GroupEntry[] = [];
+  private readonly _rows: LineEntry[] = [];
+  private readonly _labelRows: LabelEntry[] = [];
 
   constructor(lines: string[]) {
     this._lines = [...lines];
-    this._currentGroup = null;
-    this._currentTotal = 0;
-    this._dates = [];
-    this._ranges = [];
-    this._groups = [];
-    this._rows = [];
-    this._labelRows = [];
   }
 
   get lines(): string[] { return this._lines; }

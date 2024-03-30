@@ -7,20 +7,17 @@ export type BoxType = 0 | 1 | 2;
 export class LineHighlightState {
   private readonly _lines: string[];
   private readonly _colors: Dictionary<string | null>;
-  private _currentIndex: number;
+  private _currentIndex: number = -1;
   private readonly _lineStates: LineHighlightLineState[];
   private readonly _lineStateFormatter: LineStateFormatter;
-  private _boxStart: number;
-  private _boxType: BoxType;
+  private _boxStart: number = -1;
+  private _boxType: BoxType = 0;
 
   constructor(lines: string[], colors: Dictionary<string | null>, lineStateFormatter: LineStateFormatter) {
     this._lines = lines;
     this._colors = colors;
-    this._currentIndex = -1;
     this._lineStates = _map(lines, (l) => new LineHighlightLineState(l));
     this._lineStateFormatter = lineStateFormatter;
-    this._boxStart = -1;
-    this._boxType = 0;
   }
 
   get lines(): string[] { return this._lines; }
@@ -42,6 +39,7 @@ export class LineHighlightState {
   set boxType(value: BoxType) { this._boxType = value; }
   get lineStateFormatter(): LineStateFormatter { return this._lineStateFormatter; }
   get outputLines(): string[] { return _map(this.lineStates, (s: LineHighlightLineState) => this.lineStateFormatter(s, this.colors, this)); }
+
   boxCompatible(type: number): boolean { return this.boxType === 0 || this.boxType === type; }
   processBox(): void {
     if(this.boxType !== 1 && this.boxType !== 2) {
@@ -78,6 +76,7 @@ export class LineHighlightState {
     this.boxStart = -1;
     this.boxType = 0;
   }
+
   processLines(f: (state: LineHighlightLineState, self: LineHighlightState) => void): string[] {
     for(this._currentIndex = 0; this._currentIndex < this.lineCount; this._currentIndex++) {
       f(this.currentLineState, this);

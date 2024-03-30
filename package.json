@@ -4,13 +4,17 @@
   "description": "A tool for entering hours",
   "main": "",
   "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
     "prod": "pnpm build && pnpm serve:prod",
     "serve:prod": "serve dist",
     "serve:dev": "browser-sync start --server build --files build",
+    "serve:dev:static": "serve build",
     "start": "concurrently \"sleep 5 && pnpm serve:dev\" \"pnpm watch\" --names \"💻,📦\" --prefix name",
+    "start:static": "concurrently \"sleep 5 && pnpm serve:dev:static\" \"pnpm watch\" --names \"💻,📦\" --prefix name",
     "build": "static-site-builder build",
     "now-build": "static-site-builder build",
-    "watch": "NODE_ENV=development static-site-builder watch",
+    "watch": "static-site-builder watch",
     "clean": "rm -rf dist build",
     "deploy": "vercel --prod && vercel rm hour-entry --safe --yes"
   },
@@ -52,5 +56,6 @@
     "icon": null,
     "image": null,
     "themeColor": "#000000"
-  }
+  },
+  "homepage": "/"
 }

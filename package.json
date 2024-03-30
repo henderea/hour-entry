@@ -26,10 +26,14 @@
   },
   "devDependencies": {
     "@henderea/static-site-builder": "^1.10.19",
+    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "@typescript-eslint/parser": "^7.4.0",
     "browser-sync": "^3.0.2",
     "concurrently": "^8.2.2",
     "css-loader": "^6.10.0",
     "eslint": "^8.57.0",
+    "eslint-config-henderea": "1.1.30",
+    "eslint-plugin-import": "^2.29.1",
     "file-loader": "^6.2.0",
     "postcss-loader": "^8.1.1",
     "postcss-preset-env": "^9.5.2",
@@ -39,6 +43,7 @@
     "style-loader": "^3.3.4",
     "thread-loader": "^4.0.2",
     "ts-loader": "^9.5.1",
+    "typescript": "^5.4.3",
     "vercel": "^33.6.2"
   },
   "dependencies": {
@@ -57,5 +62,8 @@
     "image": null,
     "themeColor": "#000000"
   },
-  "homepage": "/"
+  "homepage": "/",
+  "eslintConfig": {
+    "extends": "henderea"
+  }
 }

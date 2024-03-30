@@ -18,19 +18,19 @@
   "license": "ISC",
   "repository": "https://github.com/henderea/hour-entry",
   "devDependencies": {
-    "@henderea/static-site-builder": "^1.10.2",
-    "browser-sync": "^2.27.9",
-    "concurrently": "^7.1.0",
-    "eslint": "^8.14.0",
-    "serve": "^13.0.2",
-    "vercel": "^24.1.0"
+    "@henderea/static-site-builder": "^1.10.19",
+    "browser-sync": "^3.0.2",
+    "concurrently": "^8.2.2",
+    "eslint": "^8.57.0",
+    "serve": "^14.2.1",
+    "vercel": "^33.6.2"
   },
   "dependencies": {
-    "jquery": "^3.6.0",
+    "jquery": "^3.7.1",
     "lodash": "^4.17.21",
-    "moment": "^2.29.3",
+    "moment": "^2.30.1",
     "moment-range": "^4.0.2",
-    "query-string": "^7.1.1"
+    "query-string": "^9.0.0"
   },
   "htmlMeta": {
     "type": "website",

@@ -1,5 +1,5 @@
-require('./index.scss');
-const $ = require('jquery');
+import './index.scss';
+import $ from 'jquery';
 import { storage, correctTextareaHeight, processSyntax, colors } from '../lib/util';
 
 import registerServiceWorker from '@henderea/static-site-builder/registerServiceWorker';

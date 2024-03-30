@@ -27,9 +27,9 @@ module.exports = function(env, mode, _paths) {
     // the severity of the size hints warning: use false for disabling, 'warning' for warning (default; used with null), or 'error' for failing the build
     const sizeHints = null;
     // the max size of the entrypoint above which webpack will warn: use null to keep the default, or specify a size with the suffix b, k, m, or g
-    const maxEntrypointSize = null;
+    const maxEntrypointSize = '1m';
     // the max size of assets above which webpack will warn: use null to keep the default, or specify a size with the suffix b, k, m, or g
-    const maxAssetSize = null;
+    const maxAssetSize = '4m';
     // extra loaders to add to the start of the list
     const extraLoaders = [];
     // extra options for the HtmlWebpackPlugin

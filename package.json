@@ -24,8 +24,17 @@
     "@henderea/static-site-builder": "^1.10.19",
     "browser-sync": "^3.0.2",
     "concurrently": "^8.2.2",
+    "css-loader": "^6.10.0",
     "eslint": "^8.57.0",
+    "file-loader": "^6.2.0",
+    "postcss-loader": "^8.1.1",
+    "postcss-preset-env": "^9.5.2",
+    "sass": "^1.72.0",
+    "sass-loader": "^14.1.1",
     "serve": "^14.2.1",
+    "style-loader": "^3.3.4",
+    "thread-loader": "^4.0.2",
+    "ts-loader": "^9.5.1",
     "vercel": "^33.6.2"
   },
   "dependencies": {

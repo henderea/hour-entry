@@ -14,7 +14,7 @@
     "start:static": "concurrently \"sleep 5 && pnpm serve:dev:static\" \"pnpm watch\" --names \"💻,📦\" --prefix name",
     "build": "static-site-builder build",
     "now-build": "static-site-builder build",
-    "watch": "static-site-builder watch",
+    "watch": "NODE_ENVIRONMENT=development static-site-builder watch",
     "clean": "rm -rf dist build",
     "deploy": "vercel --prod && vercel rm hour-entry --safe --yes"
   },
@@ -64,7 +64,7 @@
     "image": null,
     "themeColor": "#000000"
   },
-  "homepage": "/",
+  "homepage": "./",
   "eslintConfig": {
     "extends": "henderea"
   }

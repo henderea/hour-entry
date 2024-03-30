@@ -27,7 +27,10 @@
       "./ts-types"
     ],
     "allowSyntheticDefaultImports": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "removeComments": true
   },
   "include": [
     "src/**/*.ts",

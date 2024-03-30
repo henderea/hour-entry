@@ -3,7 +3,7 @@ import type { Moment } from 'moment';
 import _map from 'lodash/map.js';
 import _isNil from 'lodash/isNil.js';
 import _compact from 'lodash/compact.js';
-import _moment from 'moment';
+import * as _moment from 'moment';
 import { extendMoment } from 'moment-range';
 const moment = extendMoment(_moment);
 

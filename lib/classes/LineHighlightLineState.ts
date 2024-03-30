@@ -1,5 +1,5 @@
 import _map from 'lodash/map.js';
-import { getItem, empty, asArray } from './helpers';
+import { empty, asArray } from './helpers';
 
 export type Piece = { text: string, type: string | null };
 
@@ -47,7 +47,7 @@ export class LineHighlightLineState {
   newTextMatches(r: RegExp): boolean { return r.test(this.newText); }
   onChar(...chars: string[]): boolean { return chars.includes(this.currentChar); }
   remainingTextMatches(r: RegExp): boolean { return r.test(this.remainingText); }
-  textPart(r: RegExp, i: number): string { return getItem(r.exec(this.currentText), i) as string; }
+  // textPart(r: RegExp, i: number): string { return getItem(r.exec(this.currentText), i) as string; }
 
   eachChar(f: (currentChar: string, currentIndex: number) => boolean): void {
     for(this._currentIndex = 0; this._currentIndex < this.lineLength; this._currentIndex++) {

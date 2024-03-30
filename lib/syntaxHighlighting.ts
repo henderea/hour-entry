@@ -46,8 +46,9 @@ function processLine(s: LineHighlightLineState, state: LineHighlightState) {
       return true;
     }
     if(s.onChar(' ') && s.currentTextMatches(/\s+-$/)) {
-      s.addPiece(s.textPart(/^(.*?)(\s+-)/, 1), 'label');
-      s.addPiece(s.textPart(/^(.*?)(\s+-)/, 2) + c, 'colon');
+      const m: RegExpExecArray = /^(.*?)(\s+-)/.exec(s.currentText) as RegExpExecArray;
+      s.addPiece(m[1], 'label');
+      s.addPiece(m[2] + c, 'colon');
       return true;
     }
     if(s.onChar('h', 'm') && s.currentTextMatches(/^\s*(\d+(\.\d+)?|\.\d+)$/) && s.remainingTextMatches(/^\s*((\d+(\.\d*)?|\.\d*)m?)?\s*$/)) {

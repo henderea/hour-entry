@@ -26,8 +26,8 @@ function processDateLine(line: string, value: number, state: State): void {
   }
 }
 
-const hourOrMinutePattern: RegExp = /^.*:\s*(\d+(?:\.\d+)?|\.\d+)\s*([hm])?\s*$/;
-const hourAndMinutePattern: RegExp = /^.*:\s*(\d+(?:\.\d+)?|\.\d+)\s*h\s*(\d+(?:\.\d+)?|\.\d+)\s*m?\s*$/;
+const hourOrMinutePattern: RegExp = /:\s*(\d+(?:\.\d+)?|\.\d+)\s*([hm])?\s*$/;
+const hourAndMinutePattern: RegExp = /:\s*(\d+(?:\.\d+)?|\.\d+)\s*h\s*(\d+(?:\.\d+)?|\.\d+)\s*m?\s*$/;
 
 function processEntry(line: string, state: State): void {
   let minutes: number = NaN;
@@ -84,9 +84,9 @@ export function processLines(lines: string[]): string[] {
     if(rangeRegex.test(line)) {
       const m: RegExpExecArray = rangeRegex.exec(line) as RegExpExecArray;
       state.addRangeEntry(m[1], m[2], m[3], lineNumber);
-    } else if(/^.*:\s*$/.test(line) && !state.currentGroup) {
+    } else if(/:\s*$/.test(line) && !state.currentGroup) {
       state.currentGroup = state.addGroupEntry(line, lineNumber);
-    } else if(/^.*=\s*$/.test(line) && !/^[\s=]*=\s*$/.test(line)) {
+    } else if(/=\s*$/.test(line) && /[^\s=]/.test(line)) {
       state.addLabelRowEntry(line, lineNumber);
     } else if(/^\s*$/.test(line)) {
       processTitleLine(state);

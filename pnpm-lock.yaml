@@ -23,8 +23,8 @@ dependencies:
 
 devDependencies:
   '@henderea/static-site-builder':
-    specifier: ^1.10.19
-    version: 1.10.19(postcss@8.4.38)(typescript@5.4.3)
+    specifier: ^1.10.20
+    version: 1.10.20(postcss@8.4.38)(typescript@5.4.3)
   '@types/jquery':
     specifier: ^3.5.29
     version: 3.5.29
@@ -1782,8 +1782,8 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /@henderea/static-site-builder@1.10.19(postcss@8.4.38)(typescript@5.4.3):
-    resolution: {integrity: sha512-fm6S2NuT69Au8E3WeikEQcW1QkFLOX+ZUzOItsyhRfeSNm3cjftD/QHcTyO1RjIbXl+J06MaGSJpeMoOBJH9FQ==}
+  /@henderea/static-site-builder@1.10.20(postcss@8.4.38)(typescript@5.4.3):
+    resolution: {integrity: sha512-sduWmOGrTIwzYF4xErQKidngwAZPvWWzAyKwvyomhCIAkANVDHlZOB8iB8gS2sE0x026V1hwHZSYHwreQ7I9qg==}
     engines: {node: '>=18'}
     hasBin: true
     dependencies:

@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import _throttle from 'lodash/throttle.js';
 import { processLines } from './lineProcessing';
 import { highlightSyntax, updateColors } from './syntaxHighlighting';
 
@@ -10,11 +11,11 @@ export const storage = {
       $editor.val(storedContent);
     }
   },
-  save(editor: JQueryable) {
+  save: _throttle(function save(editor: JQueryable) {
     const $editor: JQuery = $(editor);
     const currentContent: string = $editor.val() as string;
     window.localStorage.setItem('user-content', currentContent);
-  }
+  }, 500)
 };
 
 class Colors {

@@ -8,6 +8,12 @@ export class LineHighlightState {
   private readonly _lines: string[];
   private readonly _colors: Dictionary<string | null>;
   private _currentIndex: number = -1;
+  private _currentLine: string | null = null;
+  private _previousLine: string | null = null;
+  private _nextLine: string | null = null;
+  private _currentLineState: LineHighlightLineState | null = null;
+  private _previousLineState: LineHighlightLineState | null = null;
+  private _nextLineState: LineHighlightLineState | null = null;
   private readonly _lineStates: LineHighlightLineState[];
   private readonly _lineStateFormatter: LineStateFormatter;
   private _boxStart: number = -1;
@@ -24,13 +30,23 @@ export class LineHighlightState {
   get lineCount(): number { return this.lines.length; }
   get colors(): Dictionary<string | null> { return this._colors; }
   get currentIndex(): number { return this._currentIndex; }
-  get currentLine(): string { return this.lines[this.currentIndex]; }
-  get previousLine(): string { return this.lines[this.currentIndex - 1]; }
-  get nextLine(): string { return this.lines[this.currentIndex + 1]; }
+  private get curIndex(): number { return this._currentIndex; }
+  private set curIndex(value: number) {
+    this._currentIndex = value;
+    this._currentLine = null;
+    this._nextLine = null;
+    this._previousLine = null;
+    this._currentLineState = null;
+    this._nextLineState = null;
+    this._previousLineState = null;
+  }
+  get currentLine(): string { return this._currentLine ||= this.lines[this.currentIndex]; }
+  get previousLine(): string { return this._previousLine ||= this.lines[this.currentIndex - 1]; }
+  get nextLine(): string { return this._nextLine ||= this.lines[this.currentIndex + 1]; }
   get lineStates(): LineHighlightLineState[] { return this._lineStates; }
-  get currentLineState(): LineHighlightLineState { return this.lineStates[this.currentIndex]; }
-  get previousLineState(): LineHighlightLineState { return this.lineStates[this.currentIndex - 1]; }
-  get nextLineState(): LineHighlightLineState { return this.lineStates[this.currentIndex + 1]; }
+  get currentLineState(): LineHighlightLineState { return this._currentLineState ||= this.lineStates[this.currentIndex]; }
+  get previousLineState(): LineHighlightLineState { return this._previousLineState ||= this.lineStates[this.currentIndex - 1]; }
+  get nextLineState(): LineHighlightLineState { return this._nextLineState ||= this.lineStates[this.currentIndex + 1]; }
   get atStart(): boolean { return this.currentIndex <= 0; }
   get atEnd(): boolean { return this.currentIndex >= this.lineCount - 1; }
   get boxStart(): number { return this._boxStart; }
@@ -78,7 +94,7 @@ export class LineHighlightState {
   }
 
   processLines(f: (state: LineHighlightLineState, self: LineHighlightState) => void): string[] {
-    for(this._currentIndex = 0; this._currentIndex < this.lineCount; this._currentIndex++) {
+    for(this.curIndex = 0; this.curIndex < this.lineCount; this.curIndex++) {
       f(this.currentLineState, this);
     }
     return this.outputLines;

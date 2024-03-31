@@ -14,8 +14,12 @@ export class LineHighlightLineState {
   private readonly _line: string;
   private _currentIndex: number = -1;
   private _chars: string[];
+  private _currentChar: string = '';
+  private _nextChar: string = '';
   private _currentText: string = '';
   private _pieces: Piece[] = [];
+  private _remainingChars: string[] | null = null;
+  private _remainingText: string | null = null;
 
   constructor(line: string) {
     this._line = line;
@@ -31,11 +35,19 @@ export class LineHighlightLineState {
   get pieceCount(): number { return this.pieces.length; }
   get hasPieces(): boolean { return this.pieceCount > 0; }
   get currentIndex(): number { return this._currentIndex; }
-  get currentChar(): string { return this.chars[this.currentIndex]; }
-  get nextChar(): string { return this.chars[this.currentIndex + 1]; }
+  private get curIndex(): number { return this._currentIndex; }
+  private set curIndex(value: number) {
+    this._currentIndex = value;
+    this._currentChar = this.chars[value];
+    this._nextChar = this.chars[value + 1];
+    this._remainingChars = null;
+    this._remainingText = null;
+  }
+  get currentChar(): string { return this._currentChar; }
+  get nextChar(): string { return this._nextChar; }
   get atEnd(): boolean { return this.currentIndex >= this.lineLength - 1; }
-  get remainingChars(): string[] { return this.chars.slice(this.currentIndex + 1); }
-  get remainingText(): string { return this.remainingChars.join(''); }
+  get remainingChars(): string[] { return this._remainingChars ||= this.chars.slice(this.currentIndex + 1); }
+  get remainingText(): string { return this._remainingText ||= this.remainingChars.join(''); }
   get newText(): string { return this.currentText + this.currentChar; }
 
   addChar(): void { this._currentText += this.currentChar; }
@@ -50,7 +62,7 @@ export class LineHighlightLineState {
   // textPart(r: RegExp, i: number): string { return getItem(r.exec(this.currentText), i) as string; }
 
   eachChar(f: (currentChar: string, currentIndex: number) => boolean): void {
-    for(this._currentIndex = 0; this._currentIndex < this.lineLength; this._currentIndex++) {
+    for(this.curIndex = 0; this.curIndex < this.lineLength; this.curIndex++) {
       const shouldReset: boolean = f(this.currentChar, this.currentIndex);
       if(shouldReset) { this.resetCurrentText(); }
     }

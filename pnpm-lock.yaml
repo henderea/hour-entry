@@ -26,8 +26,8 @@ dependencies:
 
 devDependencies:
   '@henderea/static-site-builder':
-    specifier: ^1.10.23
-    version: 1.10.23(postcss@8.4.38)(typescript@5.4.4)
+    specifier: ^1.10.27
+    version: 1.10.27(postcss@8.4.38)(typescript@5.4.4)
   '@types/jquery':
     specifier: ^3.5.29
     version: 3.5.29
@@ -47,8 +47,8 @@ devDependencies:
     specifier: ^8.2.2
     version: 8.2.2
   css-loader:
-    specifier: ^6.11.0
-    version: 6.11.0(webpack@5.91.0)
+    specifier: ^7.0.0
+    version: 7.0.0(webpack@5.91.0)
   eslint:
     specifier: ^8.57.0
     version: 8.57.0
@@ -89,8 +89,8 @@ devDependencies:
     specifier: ^5.4.4
     version: 5.4.4
   vercel:
-    specifier: ^33.6.3
-    version: 33.6.3
+    specifier: ^33.7.0
+    version: 33.7.0
 
 packages:
 
@@ -1797,8 +1797,8 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /@henderea/static-site-builder@1.10.23(postcss@8.4.38)(typescript@5.4.4):
-    resolution: {integrity: sha512-Vp1oj9kQfNTzDmHOgFygbMziGiKMjaZdcOic6rVX3ytjsVlVu849T7ZYQZPZTbWbQiPGTvLdh5oIkP71VsnlPA==}
+  /@henderea/static-site-builder@1.10.27(postcss@8.4.38)(typescript@5.4.4):
+    resolution: {integrity: sha512-9RQ+R0pUy9+y70X02W3taSDU9V1luiid+lMos4ukXU77spyeWOP5b+y+FNoedWXPk4e7O/TuqFyOEnxkdf52WA==}
     engines: {node: '>=18'}
     hasBin: true
     dependencies:
@@ -1808,7 +1808,7 @@ packages:
       chalk: 5.3.0
       copy-webpack-plugin: 12.0.2(webpack@5.91.0)
       cross-spawn: 7.0.3
-      css-loader: 6.11.0(webpack@5.91.0)
+      css-loader: 7.0.0(webpack@5.91.0)
       dotenv: 16.4.5
       dotenv-expand: 11.0.6
       ejs: 3.1.9
@@ -2339,8 +2339,8 @@ packages:
       fs-extra: 11.1.0
     dev: true
 
-  /@vercel/go@3.1.0:
-    resolution: {integrity: sha512-bL2Vphzol//CIhgwGjx/iDjkdZT3vVX5s+F0tdbwhy54i8PTtvwoasSTjjnP27vv+jESsIbV72m3mcKdB1iApw==}
+  /@vercel/go@3.1.1:
+    resolution: {integrity: sha512-mrzomNYltxkjvtUmaYry5YEyvwTz6c/QQHE5Gr/pPGRIniUiP6T6OFOJ49RBN7e6pRXaNzHPVuidiuBhvHh5+Q==}
     dev: true
 
   /@vercel/hydrogen@1.0.2:
@@ -2901,7 +2901,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.23.0
-      caniuse-lite: 1.0.30001605
+      caniuse-lite: 1.0.30001606
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -3101,8 +3101,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001605
-      electron-to-chromium: 1.4.726
+      caniuse-lite: 1.0.30001606
+      electron-to-chromium: 1.4.728
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
     dev: true
@@ -3167,8 +3167,8 @@ packages:
     engines: {node: '>=14.16'}
     dev: true
 
-  /caniuse-lite@1.0.30001605:
-    resolution: {integrity: sha512-nXwGlFWo34uliI9z3n6Qc0wZaf7zaZWA1CPZ169La5mV3I/gem7bst0vr5XQH5TJXZIMfDeZyOrZnSlVzKxxHQ==}
+  /caniuse-lite@1.0.30001606:
+    resolution: {integrity: sha512-LPbwnW4vfpJId225pwjZJOgX1m9sGfbw/RKJvw/t0QhYOOaTXHvkjVGFGPpvwEzufrjvTlsULnVTxdy4/6cqkg==}
     dev: true
 
   /case-sensitive-paths-webpack-plugin@2.4.0:
@@ -3508,12 +3508,12 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
-  /css-loader@6.11.0(webpack@5.91.0):
-    resolution: {integrity: sha512-CTJ+AEQJjq5NzLga5pE39qdiSV56F8ywCIsqNIRF0r7BDgWsN25aazToqAFg7ZrtA/U016xudB3ffgweORxX7g==}
-    engines: {node: '>= 12.13.0'}
+  /css-loader@7.0.0(webpack@5.91.0):
+    resolution: {integrity: sha512-WrO4FVoamxt5zY9CauZjoJgXRi/LZKIk+Ta7YvpSGr5r/eMYPNp5/T9ODlMe4/1rF5DYlycG1avhV4g3A/tiAw==}
+    engines: {node: '>= 18.12.0'}
     peerDependencies:
       '@rspack/core': 0.x || 1.x
-      webpack: ^5.0.0
+      webpack: ^5.27.0
     peerDependenciesMeta:
       '@rspack/core':
         optional: true
@@ -3847,8 +3847,8 @@ packages:
       jake: 10.8.7
     dev: true
 
-  /electron-to-chromium@1.4.726:
-    resolution: {integrity: sha512-xtjfBXn53RORwkbyKvDfTajtnTp0OJoPOIBzXvkNbb7+YYvCHJflba3L7Txyx/6Fov3ov2bGPr/n5MTixmPhdQ==}
+  /electron-to-chromium@1.4.728:
+    resolution: {integrity: sha512-Ud1v7hJJYIqehlUJGqR6PF1Ek8l80zWwxA6nGxigBsGJ9f9M2fciHyrIiNMerSHSH3p+0/Ia7jIlnDkt41h5cw==}
     dev: true
 
   /emoji-regex@8.0.0:
@@ -8120,14 +8120,14 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vercel@33.6.3:
-    resolution: {integrity: sha512-/flctkL4tI+7nOT2mHuQ99PDGichX8cKDo/hL9KcJj98YxMhyNTjp9f66LG9nt3ES3LKeAn/6l3iXsIaOuxkXA==}
+  /vercel@33.7.0:
+    resolution: {integrity: sha512-zP2NwI4qwF78AtmJ19GSwyeeAR5WVW8+Jvbnt480GVS7VO4NCAwIeoQmZ1irCD9iKINAO6bM96ry/btZmd+SZw==}
     engines: {node: '>= 16'}
     hasBin: true
     dependencies:
       '@vercel/build-utils': 7.11.0
       '@vercel/fun': 1.1.0
-      '@vercel/go': 3.1.0
+      '@vercel/go': 3.1.1
       '@vercel/hydrogen': 1.0.2
       '@vercel/next': 4.1.6
       '@vercel/node': 3.0.26

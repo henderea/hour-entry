@@ -23,11 +23,15 @@ export class DbUpgrades<DBTypes extends DBSchema | unknown = unknown> {
 
   skipVersion(...logLines: any[]): this { return this.add(() => {}, ...logLines); }
 
-  upgrade(database: IDBPDatabase<DBTypes>, oldVersion: number, newVersion: number | null, transaction: UpgradeTransaction<DBTypes>): void {
+  doUpgrade(database: IDBPDatabase<DBTypes>, oldVersion: number, newVersion: number | null, transaction: UpgradeTransaction<DBTypes>): void {
     _each(_slice(this.upgrades, oldVersion), (upgrade: DbUpgrade<DBTypes>) => {
       _each(upgrade.logLines, console.log);
       upgrade.doUpgrade(database, oldVersion, newVersion, transaction);
     });
+  }
+
+  get upgrade(): (database: IDBPDatabase<DBTypes>, oldVersion: number, newVersion: number | null, transaction: UpgradeTransaction<DBTypes>) => void {
+    return this.doUpgrade.bind(this);
   }
 
   get length(): number { return this.upgrades.length; }

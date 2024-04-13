@@ -26,8 +26,8 @@ dependencies:
 
 devDependencies:
   '@henderea/static-site-builder':
-    specifier: ^1.10.31
-    version: 1.10.31(postcss@8.4.38)(typescript@5.4.5)
+    specifier: ^1.10.32
+    version: 1.10.32(postcss@8.4.38)(typescript@5.4.5)
   '@types/jquery':
     specifier: ^3.5.29
     version: 3.5.29
@@ -1797,8 +1797,8 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /@henderea/static-site-builder@1.10.31(postcss@8.4.38)(typescript@5.4.5):
-    resolution: {integrity: sha512-y4qdy3BgU24NgNt2YALip/2Cgnu3EWQQGnPVCspm+CawvJVcdWuCi7ZwMgMt8iqq3eYqS9Efj+QXA8OliTrXnQ==}
+  /@henderea/static-site-builder@1.10.32(postcss@8.4.38)(typescript@5.4.5):
+    resolution: {integrity: sha512-TbHwhc2gX2HI89KaJzM0M/3MNd9ohTNLN0Dtk2t2EAjKhXkDijQyueE9z1UNvxiQfUCGlTOq7gNxXaW/fcg6KQ==}
     engines: {node: '>=18'}
     hasBin: true
     dependencies:
@@ -1811,7 +1811,7 @@ packages:
       css-loader: 7.1.1(webpack@5.91.0)
       dotenv: 16.4.5
       dotenv-expand: 11.0.6
-      ejs: 3.1.9
+      ejs: 3.1.10
       file-loader: 6.2.0(webpack@5.91.0)
       filesize: 10.1.1
       find-pkg: 2.0.0
@@ -2031,7 +2031,7 @@ packages:
   /@surma/rollup-plugin-off-main-thread@2.2.3:
     resolution: {integrity: sha512-lR8q/9W7hZpMWweNiAKU7NQerBnzQQLvi8qnTDU/fxItPhtZVMbPV3lbCwjhIlNBe9Bbr5V+KHshvWmVSG9cxQ==}
     dependencies:
-      ejs: 3.1.9
+      ejs: 3.1.10
       json5: 2.2.3
       magic-string: 0.25.9
       string.prototype.matchall: 4.0.11
@@ -3102,7 +3102,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001609
-      electron-to-chromium: 1.4.735
+      electron-to-chromium: 1.4.736
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
     dev: true
@@ -3839,16 +3839,16 @@ packages:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
     dev: true
 
-  /ejs@3.1.9:
-    resolution: {integrity: sha512-rC+QVNMJWv+MtPgkt0y+0rVEIdbtxVADApW9JXrUVlzHetgcyczP/E7DJmWJ4fJCZF2cPcBk0laWO9ZHMG3DmQ==}
+  /ejs@3.1.10:
+    resolution: {integrity: sha512-UeJmFfOrAQS8OJWPZ4qtgHyWExa088/MtK5UEyoJGFH67cDEXkZSviOiKRCZ4Xij0zxI3JECgYs3oKx+AizQBA==}
     engines: {node: '>=0.10.0'}
     hasBin: true
     dependencies:
       jake: 10.8.7
     dev: true
 
-  /electron-to-chromium@1.4.735:
-    resolution: {integrity: sha512-pkYpvwg8VyOTQAeBqZ7jsmpCjko1Qc6We1ZtZCjRyYbT5v4AIUKDy5cQTRotQlSSZmMr8jqpEt6JtOj5k7lR7A==}
+  /electron-to-chromium@1.4.736:
+    resolution: {integrity: sha512-Rer6wc3ynLelKNM4lOCg7/zPQj8tPOCB2hzD32PX9wd3hgRRi9MxEbmkFCokzcEhRVMiOVLjnL9ig9cefJ+6+Q==}
     dev: true
 
   /emoji-regex@8.0.0:

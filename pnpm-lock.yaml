@@ -28,8 +28,8 @@ importers:
         version: 9.0.0
     devDependencies:
       '@henderea/static-site-builder':
-        specifier: ^1.10.33
-        version: 1.10.33(postcss@8.4.38)(typescript@5.4.5)
+        specifier: ^1.10.34
+        version: 1.10.34(postcss@8.4.38)(typescript@5.4.5)
       '@types/jquery':
         specifier: ^3.5.29
         version: 3.5.29
@@ -67,8 +67,8 @@ importers:
         specifier: ^8.1.1
         version: 8.1.1(postcss@8.4.38)(typescript@5.4.5)(webpack@5.91.0)
       postcss-preset-env:
-        specifier: ^9.5.5
-        version: 9.5.5(postcss@8.4.38)
+        specifier: ^9.5.6
+        version: 9.5.6(postcss@8.4.38)
       sass:
         specifier: ^1.75.0
         version: 1.75.0
@@ -966,8 +966,8 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@henderea/static-site-builder@1.10.33':
-    resolution: {integrity: sha512-9rMWG6nOYPZupilwpuVbiA+X35zyLpYljABwGlhevA6zDkQbmGAy1schoZi1q0BH4jGoExpUb2dI9h67cQk9Zw==}
+  '@henderea/static-site-builder@1.10.34':
+    resolution: {integrity: sha512-xZQ8vk1UGttA/BX665QpZ0MXgChdU/r9E4jB24YVZOMH9HgImZg6sHkTjpuOEoRctSAQ+2c3fpNK2R7ueqBoFw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1606,8 +1606,8 @@ packages:
     resolution: {integrity: sha512-xlx1yCK2Oc1APsPXDL2LdlNP6+uu8OCDdhOBSVT279M/S+y75O30C2VuD8T2ogdePBBl7PfPF4504tnLgX3zfw==}
     engines: {node: '>=14.16'}
 
-  caniuse-lite@1.0.30001610:
-    resolution: {integrity: sha512-QFutAY4NgaelojVMjY63o6XlZyORPaLfyMnsl3HgnWdJUcX6K0oaJymHjH8PT5Gk7sTm8rvC/c5COUQKXqmOMA==}
+  caniuse-lite@1.0.30001611:
+    resolution: {integrity: sha512-19NuN1/3PjA3QI8Eki55N8my4LzfkMCRLgCVfrl/slbSAchQfV0+GwjPrK3rq37As4UCLlM/DHajbKkAqbv92Q==}
 
   case-sensitive-paths-webpack-plugin@2.4.0:
     resolution: {integrity: sha512-roIFONhcxog0JSSWbvVAh3OocukmSgpqOH6YpMkCvav/ySIV3JKg4Dc8vYtQjYi/UxpNE36r/9v+VqTQqgkYmw==}
@@ -1784,8 +1784,8 @@ packages:
     resolution: {integrity: sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==}
     engines: {node: '>=8'}
 
-  css-blank-pseudo@6.0.1:
-    resolution: {integrity: sha512-goSnEITByxTzU4Oh5oJZrEWudxTqk7L6IXj1UW69pO6Hv0UdX+Vsrt02FFu5DweRh2bLu6WpX/+zsQCu5O1gKw==}
+  css-blank-pseudo@6.0.2:
+    resolution: {integrity: sha512-J/6m+lsqpKPqWHOifAFtKFeGLOzw3jR92rxQcwRUfA/eTuZzKfKlxOmYDx2+tqOPQAueNvBiY8WhAeHu5qNmTg==}
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       postcss: ^8.4
@@ -1999,8 +1999,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.4.738:
-    resolution: {integrity: sha512-lwKft2CLFztD+vEIpesrOtCrko/TFnEJlHFdRhazU7Y/jx5qc4cqsocfVrBg4So4gGe9lvxnbLIoev47WMpg+A==}
+  electron-to-chromium@1.4.741:
+    resolution: {integrity: sha512-AyTBZqDoS7/mvQK22gOQpjxbeV8iPeUBTvYlEh/1S9dKAHgQdxuF49g9rLbj0cRKtqH8PzLJzqT3nAdl+qoZTA==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -3568,8 +3568,8 @@ packages:
     peerDependencies:
       postcss: ^8.4
 
-  postcss-preset-env@9.5.5:
-    resolution: {integrity: sha512-tg71KfEgTHMM+C4LpWtKfHFWEunfWj1JThq/Odsw60MOowcffBrMAcSBDE+imftW5/BD3mpOiiTL6c+KcnGaLQ==}
+  postcss-preset-env@9.5.6:
+    resolution: {integrity: sha512-sSfCYe178J99q8brBMBOjXhyhdJo1IYwvxjUm/uHeOGnXwWR5lbMWMyUFso45CG1lNkt6aIlYDf7J5Epi8mb9Q==}
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       postcss: ^8.4
@@ -5548,7 +5548,7 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@henderea/static-site-builder@1.10.33(postcss@8.4.38)(typescript@5.4.5)':
+  '@henderea/static-site-builder@1.10.34(postcss@8.4.38)(typescript@5.4.5)':
     dependencies:
       '@babel/core': 7.24.4
       babel-loader: 9.1.3(@babel/core@7.24.4)(webpack@5.91.0)
@@ -5572,7 +5572,7 @@ snapshots:
       moment: 2.30.1
       moment-locales-webpack-plugin: 1.2.0(moment@2.30.1)(webpack@5.91.0)
       postcss-loader: 8.1.1(postcss@8.4.38)(typescript@5.4.5)(webpack@5.91.0)
-      postcss-preset-env: 9.5.5(postcss@8.4.38)
+      postcss-preset-env: 9.5.6(postcss@8.4.38)
       recursive-readdir: 2.2.3
       sass: 1.75.0
       sass-loader: 14.2.1(sass@1.75.0)(webpack@5.91.0)
@@ -6274,7 +6274,7 @@ snapshots:
   autoprefixer@10.4.19(postcss@8.4.38):
     dependencies:
       browserslist: 4.23.0
-      caniuse-lite: 1.0.30001610
+      caniuse-lite: 1.0.30001611
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -6414,8 +6414,8 @@ snapshots:
 
   browserslist@4.23.0:
     dependencies:
-      caniuse-lite: 1.0.30001610
-      electron-to-chromium: 1.4.738
+      caniuse-lite: 1.0.30001611
+      electron-to-chromium: 1.4.741
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
 
@@ -6450,7 +6450,7 @@ snapshots:
 
   camelcase@7.0.1: {}
 
-  caniuse-lite@1.0.30001610: {}
+  caniuse-lite@1.0.30001611: {}
 
   case-sensitive-paths-webpack-plugin@2.4.0: {}
 
@@ -6638,7 +6638,7 @@ snapshots:
 
   crypto-random-string@2.0.0: {}
 
-  css-blank-pseudo@6.0.1(postcss@8.4.38):
+  css-blank-pseudo@6.0.2(postcss@8.4.38):
     dependencies:
       postcss: 8.4.38
       postcss-selector-parser: 6.0.16
@@ -6833,7 +6833,7 @@ snapshots:
     dependencies:
       jake: 10.8.7
 
-  electron-to-chromium@1.4.738: {}
+  electron-to-chromium@1.4.741: {}
 
   emoji-regex@8.0.0: {}
 
@@ -8418,7 +8418,7 @@ snapshots:
       postcss: 8.4.38
       postcss-value-parser: 4.2.0
 
-  postcss-preset-env@9.5.5(postcss@8.4.38):
+  postcss-preset-env@9.5.6(postcss@8.4.38):
     dependencies:
       '@csstools/postcss-cascade-layers': 4.0.4(postcss@8.4.38)
       '@csstools/postcss-color-function': 3.0.13(postcss@8.4.38)
@@ -8451,7 +8451,7 @@ snapshots:
       '@csstools/postcss-unset-value': 3.0.1(postcss@8.4.38)
       autoprefixer: 10.4.19(postcss@8.4.38)
       browserslist: 4.23.0
-      css-blank-pseudo: 6.0.1(postcss@8.4.38)
+      css-blank-pseudo: 6.0.2(postcss@8.4.38)
       css-has-pseudo: 6.0.3(postcss@8.4.38)
       css-prefers-color-scheme: 9.0.1(postcss@8.4.38)
       cssdb: 8.0.0

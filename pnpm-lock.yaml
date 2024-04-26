@@ -28,8 +28,8 @@ importers:
         version: 9.0.0
     devDependencies:
       '@henderea/static-site-builder':
-        specifier: ^1.10.37
-        version: 1.10.37(postcss@8.4.38)(typescript@5.4.5)
+        specifier: ^1.10.38
+        version: 1.10.38(postcss@8.4.38)(typescript@5.4.5)
       '@types/jquery':
         specifier: ^3.5.29
         version: 3.5.29
@@ -91,8 +91,8 @@ importers:
         specifier: ^5.4.5
         version: 5.4.5
       vercel:
-        specifier: ^34.1.2
-        version: 34.1.2
+        specifier: ^34.1.3
+        version: 34.1.3
 
 packages:
 
@@ -966,8 +966,8 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@henderea/static-site-builder@1.10.37':
-    resolution: {integrity: sha512-WOyYS9UmIM2emVwPVcqiZoQD+S0adAkMRv20+MZvxmWjERM6rq747EpZrqF4dBqbYU5KMP3zoPSt2ZzX6uH70w==}
+  '@henderea/static-site-builder@1.10.38':
+    resolution: {integrity: sha512-TEky+02OHul5LbXqy5IWb4tlmadTWOLGXutikGMt8iYWh4KNFvQER4WsngHMW4csRkriaAvADrmnspZb70NZcA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1082,8 +1082,8 @@ packages:
     resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
     engines: {node: '>=18'}
 
-  '@socket.io/component-emitter@3.1.1':
-    resolution: {integrity: sha512-dzJtaDAAoXx4GCOJpbB2eG/Qj8VDpdwkLsWGzGm+0L7E8/434RyMbAHmk9ubXWVAb9nXmc44jUf8GKqVDiKezg==}
+  '@socket.io/component-emitter@3.1.2':
+    resolution: {integrity: sha512-9BCxFwvbGg/RsZK9tjXd8s4UcwR0MWeFQ1XEKIQVVvAGJyINdrqKMcTRyLoK8Rse1GjzLV9cwjWV1olXRWEXVA==}
 
   '@surma/rollup-plugin-off-main-thread@2.2.3':
     resolution: {integrity: sha512-lR8q/9W7hZpMWweNiAKU7NQerBnzQQLvi8qnTDU/fxItPhtZVMbPV3lbCwjhIlNBe9Bbr5V+KHshvWmVSG9cxQ==}
@@ -1241,8 +1241,8 @@ packages:
   '@vercel/hydrogen@1.0.2':
     resolution: {integrity: sha512-/Q2MKk1GfOuZAnkE9jQexjtUQqanbY65R+xtJWd9yKIgwcfRI1hxiNH3uXyVM5AvLoY+fxxULkSuxDtUKpkJpQ==}
 
-  '@vercel/next@4.2.2':
-    resolution: {integrity: sha512-VJLnC2I3KpGvVtCnuKn7p6bDMfMNDtgYw8nnd8US4oglnw7boC+OiqRF9Jo+sJkeuVafnuIUDtFkw+97lIRqSw==}
+  '@vercel/next@4.2.3':
+    resolution: {integrity: sha512-qXWbgY4YzXE4wCrCaLW9dTsr53SN+HIk7XK7P749Ob/yaRMbTIDMof+NhM2IyyUaoVt4zxNVFoRbCqkYqJSevA==}
 
   '@vercel/nft@0.26.4':
     resolution: {integrity: sha512-j4jCOOXke2t8cHZCIxu1dzKLHLcFmYzC3yqAK6MfZznOL1QIJKd0xcFsXK3zcqzU7ScsE2zWkiMMNHGMHgp+FA==}
@@ -2017,8 +2017,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.4.748:
-    resolution: {integrity: sha512-VWqjOlPZn70UZ8FTKUOkUvBLeTQ0xpty66qV0yJcAGY2/CthI4xyW9aEozRVtuwv3Kpf5xTesmJUcPwuJmgP4A==}
+  electron-to-chromium@1.4.749:
+    resolution: {integrity: sha512-LRMMrM9ITOvue0PoBrvNIraVmuDbJV5QC9ierz/z5VilMdPOVMjOtpICNld3PuXuTZ3CHH/UPxX9gHhAPwi+0Q==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -4355,8 +4355,8 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
-  vercel@34.1.2:
-    resolution: {integrity: sha512-kfyv7sP/uhtt/8+exXpRp3bKoinl2sEOEDRnuXCQ09SNFviZwNOuyHagjdIh07Sl3qEbtHX9jVUQWouGfkcc6g==}
+  vercel@34.1.3:
+    resolution: {integrity: sha512-iwUsrhH5ncXK/BKZ6yn1iRQkWoNm7MDO+xErOFKrKA2MukPaRfSWaLDfARq2/SaKS5z86s36h5YFECtyAu6Q2Q==}
     engines: {node: '>= 16'}
     hasBin: true
 
@@ -5559,7 +5559,7 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@henderea/static-site-builder@1.10.37(postcss@8.4.38)(typescript@5.4.5)':
+  '@henderea/static-site-builder@1.10.38(postcss@8.4.38)(typescript@5.4.5)':
     dependencies:
       '@babel/core': 7.24.4
       babel-loader: 9.1.3(@babel/core@7.24.4)(webpack@5.91.0)
@@ -5730,7 +5730,7 @@ snapshots:
 
   '@sindresorhus/merge-streams@2.3.0': {}
 
-  '@socket.io/component-emitter@3.1.1': {}
+  '@socket.io/component-emitter@3.1.2': {}
 
   '@surma/rollup-plugin-off-main-thread@2.2.3':
     dependencies:
@@ -5940,7 +5940,7 @@ snapshots:
       '@vercel/static-config': 3.0.0
       ts-morph: 12.0.0
 
-  '@vercel/next@4.2.2':
+  '@vercel/next@4.2.3':
     dependencies:
       '@vercel/nft': 0.26.4
     transitivePeerDependencies:
@@ -6434,7 +6434,7 @@ snapshots:
   browserslist@4.23.0:
     dependencies:
       caniuse-lite: 1.0.30001612
-      electron-to-chromium: 1.4.748
+      electron-to-chromium: 1.4.749
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
 
@@ -6852,7 +6852,7 @@ snapshots:
     dependencies:
       jake: 10.8.7
 
-  electron-to-chromium@1.4.748: {}
+  electron-to-chromium@1.4.749: {}
 
   emoji-regex@8.0.0: {}
 
@@ -6872,7 +6872,7 @@ snapshots:
 
   engine.io-client@6.5.3:
     dependencies:
-      '@socket.io/component-emitter': 3.1.1
+      '@socket.io/component-emitter': 3.1.2
       debug: 4.3.4
       engine.io-parser: 5.2.2
       ws: 8.11.0
@@ -8891,7 +8891,7 @@ snapshots:
 
   socket.io-client@4.7.5:
     dependencies:
-      '@socket.io/component-emitter': 3.1.1
+      '@socket.io/component-emitter': 3.1.2
       debug: 4.3.4
       engine.io-client: 6.5.3
       socket.io-parser: 4.2.4
@@ -8902,7 +8902,7 @@ snapshots:
 
   socket.io-parser@4.2.4:
     dependencies:
-      '@socket.io/component-emitter': 3.1.1
+      '@socket.io/component-emitter': 3.1.2
       debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
@@ -9319,13 +9319,13 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vercel@34.1.2:
+  vercel@34.1.3:
     dependencies:
       '@vercel/build-utils': 7.12.0
       '@vercel/fun': 1.1.0
       '@vercel/go': 3.1.1
       '@vercel/hydrogen': 1.0.2
-      '@vercel/next': 4.2.2
+      '@vercel/next': 4.2.3
       '@vercel/node': 3.0.27
       '@vercel/python': 4.2.0
       '@vercel/redwood': 2.0.8

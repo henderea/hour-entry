@@ -28,14 +28,14 @@ importers:
         version: 9.0.0
     devDependencies:
       '@henderea/static-site-builder':
-        specifier: ^1.10.46
-        version: 1.10.46(postcss@8.4.38)(typescript@5.4.5)
+        specifier: ^1.10.47
+        version: 1.10.47(postcss@8.4.38)(typescript@5.4.5)
       '@types/jquery':
         specifier: ^3.5.30
         version: 3.5.30
       '@types/lodash':
-        specifier: ^4.17.3
-        version: 4.17.3
+        specifier: ^4.17.4
+        version: 4.17.4
       '@typescript-eslint/eslint-plugin':
         specifier: ^7.9.0
         version: 7.9.0(@typescript-eslint/parser@7.9.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)(typescript@5.4.5)
@@ -70,11 +70,11 @@ importers:
         specifier: ^9.5.13
         version: 9.5.13(postcss@8.4.38)
       sass:
-        specifier: ^1.77.1
-        version: 1.77.1
+        specifier: ^1.77.2
+        version: 1.77.2
       sass-loader:
         specifier: ^14.2.1
-        version: 14.2.1(sass@1.77.1)(webpack@5.91.0)
+        version: 14.2.1(sass@1.77.2)(webpack@5.91.0)
       serve:
         specifier: ^14.2.3
         version: 14.2.3
@@ -962,8 +962,8 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@henderea/static-site-builder@1.10.46':
-    resolution: {integrity: sha512-5gMZrPxhNqqDME418+RC77o6Iq2n47fGHO3AVMc1y3cv9CgCk3G0AoK0Ca5JBorNPV43Cnt6G1D1DKT6QqV8Ug==}
+  '@henderea/static-site-builder@1.10.47':
+    resolution: {integrity: sha512-dFcUoI45YbwCLsVN/nZydKdAWo55zdShrjJzlCX5YCYl64fv+z8IvFCbwSMdPJ69C3nywmDO7reIuW6STyu8pw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1133,8 +1133,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/lodash@4.17.3':
-    resolution: {integrity: sha512-zmNrEJaBvNskZXQWaUQq6bktF4IDGVfDS78M+YEk5aCn9M/b94/mB/6WCyfH2/MjwBdc6QuOor95CIlKWYRL3A==}
+  '@types/lodash@4.17.4':
+    resolution: {integrity: sha512-wYCP26ZLxaT3R39kiN2+HcJ4kTd3U1waI/cY7ivWYqFP6pW3ZNpvi6Wd6PHZx7T/t8z0vlkXMg3QYLa7DZ/IJQ==}
 
   '@types/node@16.18.11':
     resolution: {integrity: sha512-3oJbGBUWuS6ahSnEq1eN2XrCyf4YsWI8OyCvo7c64zQJNplk3mO84t53o8lfTk+2ji59g5ycfc6qQ3fdHliHuA==}
@@ -2013,8 +2013,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.4.772:
-    resolution: {integrity: sha512-jFfEbxR/abTTJA3ci+2ok1NTuOBBtB4jH+UT6PUmRN+DY3WSD4FFRsgoVQ+QNIJ0T7wrXwzsWCI2WKC46b++2A==}
+  electron-to-chromium@1.4.773:
+    resolution: {integrity: sha512-87eHF+h3PlCRwbxVEAw9KtK3v7lWfc/sUDr0W76955AdYTG4bV/k0zrl585Qnj/skRMH2qOSiE+kqMeOQ+LOpw==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -3203,6 +3203,15 @@ packages:
       encoding:
         optional: true
 
+  node-fetch@2.7.0:
+    resolution: {integrity: sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==}
+    engines: {node: 4.x || >=6.0.0}
+    peerDependencies:
+      encoding: ^0.1.0
+    peerDependenciesMeta:
+      encoding:
+        optional: true
+
   node-gyp-build@4.8.1:
     resolution: {integrity: sha512-OSs33Z9yWr148JZcbZd5WiAXhh/n9z8TxQcdMhIOlpN9AhWpLfvVFO73+m77bBABQMaY9XSvIa+qk0jlI7Gcaw==}
     hasBin: true
@@ -3814,8 +3823,8 @@ packages:
       webpack:
         optional: true
 
-  sass@1.77.1:
-    resolution: {integrity: sha512-OMEyfirt9XEfyvocduUIOlUSkWOXS/LAt6oblR/ISXCTukyavjex+zQNm51pPCOiFKY1QpWvEH1EeCkgyV3I6w==}
+  sass@1.77.2:
+    resolution: {integrity: sha512-eb4GZt1C3avsX3heBNlrc7I09nyT00IUuo4eFhAbeXWU2fvA7oXI53SxODVAA+zgZCk9aunAZgO+losjR3fAwA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -5551,7 +5560,7 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@henderea/static-site-builder@1.10.46(postcss@8.4.38)(typescript@5.4.5)':
+  '@henderea/static-site-builder@1.10.47(postcss@8.4.38)(typescript@5.4.5)':
     dependencies:
       '@babel/core': 7.24.5
       babel-loader: 9.1.3(@babel/core@7.24.5)(webpack@5.91.0)
@@ -5577,8 +5586,8 @@ snapshots:
       postcss-loader: 8.1.1(postcss@8.4.38)(typescript@5.4.5)(webpack@5.91.0)
       postcss-preset-env: 9.5.13(postcss@8.4.38)
       recursive-readdir: 2.2.3
-      sass: 1.77.1
-      sass-loader: 14.2.1(sass@1.77.1)(webpack@5.91.0)
+      sass: 1.77.2
+      sass-loader: 14.2.1(sass@1.77.2)(webpack@5.91.0)
       strip-ansi: 7.1.0
       style-loader: 4.0.0(webpack@5.91.0)
       thread-loader: 4.0.2(webpack@5.91.0)
@@ -5644,7 +5653,7 @@ snapshots:
       detect-libc: 2.0.3
       https-proxy-agent: 5.0.1
       make-dir: 3.1.0
-      node-fetch: 2.6.9
+      node-fetch: 2.7.0
       nopt: 5.0.0
       npmlog: 5.0.1
       rimraf: 3.0.2
@@ -5778,7 +5787,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/lodash@4.17.3': {}
+  '@types/lodash@4.17.4': {}
 
   '@types/node@16.18.11': {}
 
@@ -6426,7 +6435,7 @@ snapshots:
   browserslist@4.23.0:
     dependencies:
       caniuse-lite: 1.0.30001620
-      electron-to-chromium: 1.4.772
+      electron-to-chromium: 1.4.773
       node-releases: 2.0.14
       update-browserslist-db: 1.0.16(browserslist@4.23.0)
 
@@ -6844,7 +6853,7 @@ snapshots:
     dependencies:
       jake: 10.9.1
 
-  electron-to-chromium@1.4.772: {}
+  electron-to-chromium@1.4.773: {}
 
   emoji-regex@8.0.0: {}
 
@@ -8074,6 +8083,10 @@ snapshots:
     dependencies:
       whatwg-url: 5.0.0
 
+  node-fetch@2.7.0:
+    dependencies:
+      whatwg-url: 5.0.0
+
   node-gyp-build@4.8.1: {}
 
   node-releases@2.0.14: {}
@@ -8714,14 +8727,14 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  sass-loader@14.2.1(sass@1.77.1)(webpack@5.91.0):
+  sass-loader@14.2.1(sass@1.77.2)(webpack@5.91.0):
     dependencies:
       neo-async: 2.6.2
     optionalDependencies:
-      sass: 1.77.1
+      sass: 1.77.2
       webpack: 5.91.0
 
-  sass@1.77.1:
+  sass@1.77.2:
     dependencies:
       chokidar: 3.6.0
       immutable: 4.3.6

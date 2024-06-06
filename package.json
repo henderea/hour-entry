@@ -34,7 +34,7 @@
     "concurrently": "^8.2.2",
     "css-loader": "^7.1.2",
     "eslint": "^8.57.0",
-    "eslint-config-henderea": "1.1.42",
+    "eslint-config-henderea": "^1.1.42",
     "eslint-plugin-import": "^2.29.1",
     "file-loader": "^6.2.0",
     "postcss-loader": "^8.1.1",

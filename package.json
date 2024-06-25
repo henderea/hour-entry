@@ -46,7 +46,7 @@
     "thread-loader": "^4.0.2",
     "ts-loader": "^9.5.1",
     "typescript": "^5.5.2",
-    "vercel": "^34.2.7"
+    "vercel": "^34.2.8"
   },
   "dependencies": {
     "idb": "^8.0.0",

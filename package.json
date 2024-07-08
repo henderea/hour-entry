@@ -25,7 +25,7 @@
     "url": "git+https://github.com/henderea/hour-entry.git"
   },
   "devDependencies": {
-    "@henderea/static-site-builder": "^1.10.60",
+    "@henderea/static-site-builder": "^1.10.61",
     "@types/jquery": "^3.5.30",
     "@types/lodash": "^4.17.6",
     "@typescript-eslint/eslint-plugin": "^7.16.0",
@@ -38,7 +38,7 @@
     "eslint-plugin-import": "^2.29.1",
     "file-loader": "^6.2.0",
     "postcss-loader": "^8.1.1",
-    "postcss-preset-env": "^9.5.16",
+    "postcss-preset-env": "^9.6.0",
     "sass": "^1.77.6",
     "sass-loader": "^14.2.1",
     "serve": "^14.2.3",

@@ -27,7 +27,7 @@
   "devDependencies": {
     "@henderea/static-site-builder": "^1.10.66",
     "@types/jquery": "^3.5.30",
-    "@types/lodash": "^4.17.6",
+    "@types/lodash": "^4.17.7",
     "@typescript-eslint/eslint-plugin": "^7.16.1",
     "@typescript-eslint/parser": "^7.16.1",
     "browser-sync": "^3.0.2",

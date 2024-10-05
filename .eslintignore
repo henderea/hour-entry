@@ -1,7 +1,0 @@
-node_modules
-.idea
-.vercel
-.vscode
-build
-dist
-public

@@ -28,8 +28,8 @@ importers:
         version: 9.1.1
     devDependencies:
       '@henderea/static-site-builder':
-        specifier: ^1.10.88
-        version: 1.10.88(postcss@8.4.49)(typescript@5.7.2)
+        specifier: ^1.10.89
+        version: 1.10.89(postcss@8.4.49)(typescript@5.7.2)
       '@stylistic/eslint-plugin':
         specifier: ^2.12.1
         version: 2.12.1(eslint@9.17.0(jiti@1.21.7))(typescript@5.7.2)
@@ -914,8 +914,8 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@henderea/static-site-builder@1.10.88':
-    resolution: {integrity: sha512-3TADwYRydvCWC1NGTxKHF3xNJSjtYIeOQcKXRG82xIsF602VVx44ftClsH7bYx4TFjvY08Hkz6Dlv04HvxnjGg==}
+  '@henderea/static-site-builder@1.10.89':
+    resolution: {integrity: sha512-u991IU0B7Taop1EkAU7T/rahlyswAv6QfLL7p85BRBdiQL10IQhO8flJXMgORQr3/0gIUHuCReZDw3bIrbDU6Q==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -5619,7 +5619,7 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@henderea/static-site-builder@1.10.88(postcss@8.4.49)(typescript@5.7.2)':
+  '@henderea/static-site-builder@1.10.89(postcss@8.4.49)(typescript@5.7.2)':
     dependencies:
       '@babel/core': 7.26.0
       babel-loader: 9.2.1(@babel/core@7.26.0)(webpack@5.97.1)
@@ -5649,6 +5649,7 @@ snapshots:
       sass-loader: 16.0.4(sass@1.83.0)(webpack@5.97.1)
       strip-ansi: 7.1.0
       style-loader: 4.0.0(webpack@5.97.1)
+      terser-webpack-plugin: 5.3.11(webpack@5.97.1)
       thread-loader: 4.0.4(webpack@5.97.1)
       ts-loader: 9.5.1(typescript@5.7.2)(webpack@5.97.1)
       tsconfig-paths-webpack-plugin: 4.2.0

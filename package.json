@@ -32,7 +32,7 @@
     "@typescript-eslint/eslint-plugin": "^8.19.0",
     "@typescript-eslint/parser": "^8.19.0",
     "browser-sync": "^3.0.3",
-    "concurrently": "^9.1.1",
+    "concurrently": "^9.1.2",
     "css-loader": "^7.1.2",
     "eslint": "^9.17.0",
     "eslint-config-henderea": "^2.0.25",

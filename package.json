@@ -28,7 +28,7 @@
     "@henderea/static-site-builder": "^1.10.116",
     "@stylistic/eslint-plugin": "^4.2.0",
     "@types/jquery": "^3.5.32",
-    "@types/lodash": "^4.17.16",
+    "@types/lodash": "^4.17.17",
     "@typescript-eslint/eslint-plugin": "^8.32.1",
     "@typescript-eslint/parser": "^8.32.1",
     "browser-sync": "^3.0.4",
@@ -49,7 +49,7 @@
     "ts-loader": "^9.5.2",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.32.1",
-    "vercel": "^42.1.0"
+    "vercel": "^42.1.1"
   },
   "dependencies": {
     "idb": "^8.0.3",

@@ -100,8 +100,8 @@ importers:
         specifier: ^8.38.0
         version: 8.38.0(eslint@9.31.0(jiti@1.21.7))(typescript@5.8.3)
       vercel:
-        specifier: ^44.5.0
-        version: 44.5.0(rollup@2.79.2)
+        specifier: ^44.5.2
+        version: 44.5.2(rollup@2.79.2)
 
 packages:
 
@@ -926,8 +926,8 @@ packages:
     resolution: {integrity: sha512-RBMg5FRL0I0gs51M/guSAj5/e14VQ4tpZnQNWwuDT66P14I43ItmPfIZRhO9fUVIPOAQXU47atlywZ/czoqFPA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@eslint/plugin-kit@0.3.3':
-    resolution: {integrity: sha512-1+WqvgNMhmlAambTvT3KPtCl/Ibr68VldY2XY40SL1CE0ZXiakFR/cbTspaF5HsnpDMvcYYoJHfl4980NBjGag==}
+  '@eslint/plugin-kit@0.3.4':
+    resolution: {integrity: sha512-Ul5l+lHEcw3L5+k8POx6r74mxEYKG5kOb6Xpy2gCRW6zweT6TEhAf8vhxGgjhqrd/VO/Dirhsb+1hNpD1ue9hw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@fastify/busboy@2.1.1':
@@ -1212,8 +1212,8 @@ packages:
   '@types/node@16.18.11':
     resolution: {integrity: sha512-3oJbGBUWuS6ahSnEq1eN2XrCyf4YsWI8OyCvo7c64zQJNplk3mO84t53o8lfTk+2ji59g5ycfc6qQ3fdHliHuA==}
 
-  '@types/node@24.0.14':
-    resolution: {integrity: sha512-4zXMWD91vBLGRtHK3YbIoFMia+1nqEz72coM42C5ETjnNCa/heoj7NT1G67iAfOqMmcfhuCZ4uNpyz8EjlAejw==}
+  '@types/node@24.1.0':
+    resolution: {integrity: sha512-ut5FthK5moxFKH2T1CUOC6ctR67rQRvvHdFLCD2Ql6KXmMuCrjsSsRI9UsLCm9M18BMwClv4pn327UvB7eeO1w==}
 
   '@types/resolve@1.20.2':
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
@@ -1262,10 +1262,6 @@ packages:
       eslint: ^8.57.0 || ^9.0.0
       typescript: '>=4.8.4 <5.9.0'
 
-  '@typescript-eslint/types@8.37.0':
-    resolution: {integrity: sha512-ax0nv7PUF9NOVPs+lmQ7yIE7IQmAf8LGcXbMvHX5Gm+YJUYNAl340XkGnrimxZ0elXyoQJuN5sbg6C4evKA4SQ==}
-    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
-
   '@typescript-eslint/types@8.38.0':
     resolution: {integrity: sha512-wzkUfX3plUqij4YwWaJyqhiPE5UCRVlFpKn1oCRn2O1bJ592XxWJj8ROQ3JD5MYXLORW84063z3tZTb/cs4Tyw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
@@ -1313,8 +1309,8 @@ packages:
   '@vercel/hydrogen@1.2.3':
     resolution: {integrity: sha512-sU0HWHabNxlTdKQWPMDqwr+3MqnhXc4Tvnl4i9cbdEYn5061SEKhdfpl2RhuvPByQJ8sZL8soVXFHIjFBJAR4w==}
 
-  '@vercel/next@4.10.2':
-    resolution: {integrity: sha512-KIoC5HzjTvRhM8j8g0EmvD0dHQ607KU+MqAvNCL/JsfqpOM+Tv0PFnOIXJjmbkEXwWkTvnu8WSsJTfpEUyM55g==}
+  '@vercel/next@4.10.4':
+    resolution: {integrity: sha512-1yRcUNHMh4476tomD+eFMeREemXp15aR2IxmkMKJxErgxWgIY285hDbNa+KEwqm7TWHouny09tvyOanknUUf+Q==}
 
   '@vercel/nft@0.29.2':
     resolution: {integrity: sha512-A/Si4mrTkQqJ6EXJKv5EYCDQ3NL6nJXxG8VGXePsaiQigsomHYQC9xSpX8qGk7AEZk4b1ssbYIqJ0ISQQ7bfcA==}
@@ -1324,8 +1320,8 @@ packages:
   '@vercel/node@5.3.6':
     resolution: {integrity: sha512-Q+46nIur6XztdXEv8rXK5n1fSH1gLoTaHq0tGGHX5OBCfi26HNlTeIMludPTzW7twf5lXmGHFsRD2Uoor5ku0w==}
 
-  '@vercel/python@4.7.4':
-    resolution: {integrity: sha512-HTjvOTgr9kAF+N/shIHgi0vo8aJRImyUHSmbRSwq3qBdAa3CPnEAKmaoY6liBTodhI3SUVISsBsAJ+zbluIbaA==}
+  '@vercel/python@4.8.0':
+    resolution: {integrity: sha512-1ckvoGu4uEovbLRQgUACXrmANwuPSfZnAHYs5TX2RwNMSY63Y7fpnEyeq2y1cenzoj7NoG2xO+cZJRsxsfMmfQ==}
 
   '@vercel/redwood@2.3.4':
     resolution: {integrity: sha512-3QEudmaTMzcFsNJ23vq5eA4UistHYINxIVhHuPMzNhh9OdOQEPO6xSo8T7hOVKQ15tewtM3+lfzuVOxN6Hj39Q==}
@@ -2084,8 +2080,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.5.187:
-    resolution: {integrity: sha512-cl5Jc9I0KGUoOoSbxvTywTa40uspGJt/BDBoDLoxJRSBpWh4FFXBsjNRHfQrONsV/OoEjDfHUmZQa2d6Ze4YgA==}
+  electron-to-chromium@1.5.189:
+    resolution: {integrity: sha512-y9D1ntS1ruO/pZ/V2FtLE+JXLQe28XoRpZ7QCCo0T8LdQladzdcOVQZH/IWLVJvCw12OGMb6hYOeOAjntCmJRQ==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -4467,8 +4463,8 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
-  vercel@44.5.0:
-    resolution: {integrity: sha512-bA0xj2jEY75eScjf6SZrKTeIDScAhhSLNkSYIu0RPH2gBYfvI0aXhLLy04Tn6RiyyCX/DnLSNvaaC7kLrr64FA==}
+  vercel@44.5.2:
+    resolution: {integrity: sha512-LLspESIYCnTgGYFBwIBVeTGL+xN9mk0GbSXpf24MP+jSDncNwp0MNFj6vUwEsuhMuAX0BY3lMib7seEKBQqGiA==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -5669,7 +5665,7 @@ snapshots:
 
   '@eslint/object-schema@2.1.6': {}
 
-  '@eslint/plugin-kit@0.3.3':
+  '@eslint/plugin-kit@0.3.4':
     dependencies:
       '@eslint/core': 0.15.1
       levn: 0.4.1
@@ -5924,7 +5920,7 @@ snapshots:
   '@stylistic/eslint-plugin@5.2.2(eslint@9.31.0(jiti@1.21.7))':
     dependencies:
       '@eslint-community/eslint-utils': 4.7.0(eslint@9.31.0(jiti@1.21.7))
-      '@typescript-eslint/types': 8.37.0
+      '@typescript-eslint/types': 8.38.0
       eslint: 9.31.0(jiti@1.21.7)
       eslint-visitor-keys: 4.2.1
       espree: 10.4.0
@@ -5957,7 +5953,7 @@ snapshots:
 
   '@types/cors@2.8.19':
     dependencies:
-      '@types/node': 24.0.14
+      '@types/node': 24.1.0
 
   '@types/eslint-scope@3.7.7':
     dependencies:
@@ -5987,7 +5983,7 @@ snapshots:
 
   '@types/node@16.18.11': {}
 
-  '@types/node@24.0.14':
+  '@types/node@24.1.0':
     dependencies:
       undici-types: 7.8.0
 
@@ -6055,8 +6051,6 @@ snapshots:
       typescript: 5.8.3
     transitivePeerDependencies:
       - supports-color
-
-  '@typescript-eslint/types@8.37.0': {}
 
   '@typescript-eslint/types@8.38.0': {}
 
@@ -6147,7 +6141,7 @@ snapshots:
       '@vercel/static-config': 3.1.1
       ts-morph: 12.0.0
 
-  '@vercel/next@4.10.2(rollup@2.79.2)':
+  '@vercel/next@4.10.4(rollup@2.79.2)':
     dependencies:
       '@vercel/nft': 0.29.2(rollup@2.79.2)
     transitivePeerDependencies:
@@ -6204,7 +6198,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/python@4.7.4': {}
+  '@vercel/python@4.8.0': {}
 
   '@vercel/redwood@2.3.4(rollup@2.79.2)':
     dependencies:
@@ -6643,7 +6637,7 @@ snapshots:
   browserslist@4.25.1:
     dependencies:
       caniuse-lite: 1.0.30001727
-      electron-to-chromium: 1.5.187
+      electron-to-chromium: 1.5.189
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.25.1)
 
@@ -7046,7 +7040,7 @@ snapshots:
     dependencies:
       jake: 10.9.2
 
-  electron-to-chromium@1.5.187: {}
+  electron-to-chromium@1.5.189: {}
 
   emoji-regex@8.0.0: {}
 
@@ -7079,7 +7073,7 @@ snapshots:
   engine.io@6.6.4:
     dependencies:
       '@types/cors': 2.8.19
-      '@types/node': 24.0.14
+      '@types/node': 24.1.0
       accepts: 1.3.8
       base64id: 2.0.0
       cookie: 0.7.2
@@ -7379,7 +7373,7 @@ snapshots:
       '@eslint/core': 0.15.1
       '@eslint/eslintrc': 3.3.1
       '@eslint/js': 9.31.0
-      '@eslint/plugin-kit': 0.3.3
+      '@eslint/plugin-kit': 0.3.4
       '@humanfs/node': 0.16.6
       '@humanwhocodes/module-importer': 1.0.1
       '@humanwhocodes/retry': 0.4.3
@@ -8039,7 +8033,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 24.0.14
+      '@types/node': 24.1.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -9578,16 +9572,16 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vercel@44.5.0(rollup@2.79.2):
+  vercel@44.5.2(rollup@2.79.2):
     dependencies:
       '@vercel/blob': 1.0.2
       '@vercel/build-utils': 10.6.7
       '@vercel/fun': 1.1.6
       '@vercel/go': 3.2.2
       '@vercel/hydrogen': 1.2.3
-      '@vercel/next': 4.10.2(rollup@2.79.2)
+      '@vercel/next': 4.10.4(rollup@2.79.2)
       '@vercel/node': 5.3.6(rollup@2.79.2)
-      '@vercel/python': 4.7.4
+      '@vercel/python': 4.8.0
       '@vercel/redwood': 2.3.4(rollup@2.79.2)
       '@vercel/remix-builder': 5.4.10(rollup@2.79.2)
       '@vercel/ruby': 2.2.1

@@ -28,8 +28,8 @@ importers:
         version: 9.2.2
     devDependencies:
       '@henderea/static-site-builder':
-        specifier: ^1.10.133
-        version: 1.10.133(postcss@8.5.6)(typescript@5.9.2)
+        specifier: ^1.10.134
+        version: 1.10.134(postcss@8.5.6)(typescript@5.9.2)
       '@stylistic/eslint-plugin':
         specifier: ^5.2.3
         version: 5.2.3(eslint@9.33.0(jiti@1.21.7))
@@ -53,7 +53,7 @@ importers:
         version: 9.2.0
       css-loader:
         specifier: ^7.1.2
-        version: 7.1.2(webpack@5.101.2)
+        version: 7.1.2(webpack@5.101.3)
       eslint:
         specifier: ^9.33.0
         version: 9.33.0(jiti@1.21.7)
@@ -65,13 +65,13 @@ importers:
         version: 2.32.0(@typescript-eslint/parser@8.40.0(eslint@9.33.0(jiti@1.21.7))(typescript@5.9.2))(eslint@9.33.0(jiti@1.21.7))
       file-loader:
         specifier: ^6.2.0
-        version: 6.2.0(webpack@5.101.2)
+        version: 6.2.0(webpack@5.101.3)
       globals:
         specifier: ^16.3.0
         version: 16.3.0
       postcss-loader:
         specifier: ^8.1.1
-        version: 8.1.1(postcss@8.5.6)(typescript@5.9.2)(webpack@5.101.2)
+        version: 8.1.1(postcss@8.5.6)(typescript@5.9.2)(webpack@5.101.3)
       postcss-preset-env:
         specifier: ^10.2.4
         version: 10.2.4(postcss@8.5.6)
@@ -80,19 +80,19 @@ importers:
         version: 1.90.0
       sass-loader:
         specifier: ^16.0.5
-        version: 16.0.5(sass@1.90.0)(webpack@5.101.2)
+        version: 16.0.5(sass@1.90.0)(webpack@5.101.3)
       serve:
         specifier: ^14.2.4
         version: 14.2.4
       style-loader:
         specifier: ^4.0.0
-        version: 4.0.0(webpack@5.101.2)
+        version: 4.0.0(webpack@5.101.3)
       thread-loader:
         specifier: ^4.0.4
-        version: 4.0.4(webpack@5.101.2)
+        version: 4.0.4(webpack@5.101.3)
       ts-loader:
         specifier: ^9.5.2
-        version: 9.5.2(typescript@5.9.2)(webpack@5.101.2)
+        version: 9.5.2(typescript@5.9.2)(webpack@5.101.3)
       typescript:
         specifier: ^5.9.2
         version: 5.9.2
@@ -100,8 +100,8 @@ importers:
         specifier: ^8.40.0
         version: 8.40.0(eslint@9.33.0(jiti@1.21.7))(typescript@5.9.2)
       vercel:
-        specifier: ^45.0.9
-        version: 45.0.9(rollup@2.79.2)
+        specifier: ^46.0.2
+        version: 46.0.2(rollup@2.79.2)
 
 packages:
 
@@ -934,8 +934,8 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@henderea/static-site-builder@1.10.133':
-    resolution: {integrity: sha512-+XSH2K+AaECOEfL94ih6j5w4r2n8FOeT16nIyKzD6MFqMhr7WCsS+mx0zF8n/NtQk9nCdnZW7jvynA8WUb1hAg==}
+  '@henderea/static-site-builder@1.10.134':
+    resolution: {integrity: sha512-Xc/5KG7XqzaOyModJPqp9h0SK4h+ojznzKb6hJpNukiKiDxwhKYt6CJSrD6cqhSOWi3QFKLirg9NmtGtcdIoxQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1262,10 +1262,6 @@ packages:
       eslint: ^8.57.0 || ^9.0.0
       typescript: '>=4.8.4 <6.0.0'
 
-  '@typescript-eslint/types@8.39.1':
-    resolution: {integrity: sha512-7sPDKQQp+S11laqTrhHqeAbsCfMkwJMrV7oTDvtDds4mEofJYir414bYKUEb8YPUm9QL3U+8f6L6YExSoAGdQw==}
-    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
-
   '@typescript-eslint/types@8.40.0':
     resolution: {integrity: sha512-ETdbFlgbAmXHyFPwqUIYrfc12ArvpBhEVgGAxVYSwli26dn8Ko+lIo4Su9vI9ykTZdJn+vJprs/0eZU0YMAEQg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
@@ -1297,8 +1293,8 @@ packages:
   '@vercel/error-utils@2.0.3':
     resolution: {integrity: sha512-CqC01WZxbLUxoiVdh9B/poPbNpY9U+tO1N9oWHwTl5YAZxcqXmmWJ8KNMFItJCUUWdY3J3xv8LvAuQv2KZ5YdQ==}
 
-  '@vercel/express@0.0.5':
-    resolution: {integrity: sha512-OTNbnySi6PDVhXVEQLwwzQY0G2eXBwMYoJDOi4o+vEgigO1lUbQ+yLHmy1+yOCg7ajn+PnN/eA9ee4AHatgWIg==}
+  '@vercel/express@0.0.6':
+    resolution: {integrity: sha512-7/dOgVNQ6iFRAabnhcDlWl4XERSN6lB/Z+a91xpFmMvCZPVCA3cVYhMhDZEdE4pECyO7RPTQsr9ZC+WIn9RjMg==}
 
   '@vercel/fun@1.1.6':
     resolution: {integrity: sha512-xDiM+bD0fSZyzcjsAua3D+guXclvHOSTzr03UcZEQwYzIjwWjLduT7bl2gAaeNIe7fASAIZd0P00clcj0On4rQ==}
@@ -1313,22 +1309,22 @@ packages:
   '@vercel/go@3.2.3':
     resolution: {integrity: sha512-PErgHlV7cf8hyPq31aRsL4xm5t4rCSO6vN5AQLlAGSy3ctdgqG7sI6hq/CAKo3CfgIhVHUwNYapFJgGJB/s4OA==}
 
-  '@vercel/hono@0.0.13':
-    resolution: {integrity: sha512-yXyGpMFziLAJICO08L8vA4ku7jbGpsCpgiiVjV4sojIdmYYEK6wwI9B+D2G2FWXxVAlliTTxeW7G0Z6hxkomZA==}
+  '@vercel/hono@0.0.14':
+    resolution: {integrity: sha512-VNCOfkxXu+/IuvbTO54ndX8G87oR+14yU51wdC+uVPfXxslyl6fBUseW+9AK9aMnjdkEtIxOoeXMSGa2EaUUEQ==}
 
   '@vercel/hydrogen@1.2.3':
     resolution: {integrity: sha512-sU0HWHabNxlTdKQWPMDqwr+3MqnhXc4Tvnl4i9cbdEYn5061SEKhdfpl2RhuvPByQJ8sZL8soVXFHIjFBJAR4w==}
 
-  '@vercel/next@4.11.2':
-    resolution: {integrity: sha512-AicdYZZQ5oUHxBootGXKZx3tZNnbQNg3T3oq5+91psmGS6DHqmyYdb5xjgDXO0tSnRF4aX1FB21Tl2LQc4a3lg==}
+  '@vercel/next@4.11.3':
+    resolution: {integrity: sha512-muXOT6HRfZZgEJEVt9R0lsRjDHiPnelgVOa1l63qxRnK1gIczZ04zuGUJBjX+pCIsJuhr4qqcYA5kksJctpJlw==}
 
   '@vercel/nft@0.29.2':
     resolution: {integrity: sha512-A/Si4mrTkQqJ6EXJKv5EYCDQ3NL6nJXxG8VGXePsaiQigsomHYQC9xSpX8qGk7AEZk4b1ssbYIqJ0ISQQ7bfcA==}
     engines: {node: '>=18'}
     hasBin: true
 
-  '@vercel/node@5.3.12':
-    resolution: {integrity: sha512-IcnV+IMeccnnm6YhbMvorYlUz853EI443Ynof1NoN7YsiAcpaqTDsTyxDi064wc9BYBusGvqaPSVurOlcXehZg==}
+  '@vercel/node@5.3.13':
+    resolution: {integrity: sha512-SPz/Om2ohJsEX1I9AqYXd0BkmhKU70Jo7d6togRczyiUax1LSYMHsPs9rlzcxfwm4vLalL+Bx+D8KSfCjNaq5w==}
 
   '@vercel/python@5.0.0':
     resolution: {integrity: sha512-JHpYKQ8d478REzmF7NcJTJcncFziJhVOwzan8wW4F1RJOHGDBTPkATAgi4CPQIijToRamPCkgeECzNOvLUDR+w==}
@@ -1476,8 +1472,8 @@ packages:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
     engines: {node: '>=8'}
 
-  ansi-regex@6.1.0:
-    resolution: {integrity: sha512-7HSX4QQb4CspciLpVFwyRe79O3xsIZDDLER21kERQ71oaPodF8jL725AgJMFAYbooIqolJoRLuM81SpeUkpkvA==}
+  ansi-regex@6.2.0:
+    resolution: {integrity: sha512-TKY5pyBkHyADOPYlRT9Lx6F544mPl0vS5Ew7BJ45hA08Q+t3GjbueLliBWN3sMICk6+y7HdyxSzC4bWS8baBdg==}
     engines: {node: '>=12'}
 
   ansi-styles@4.3.0:
@@ -1651,8 +1647,8 @@ packages:
     engines: {node: '>= 8.0.0'}
     hasBin: true
 
-  browserslist@4.25.2:
-    resolution: {integrity: sha512-0si2SJK3ooGzIawRu61ZdPCO1IncZwS8IzuX73sPZsXW6EQ/w/DAfPyKI8l1ETTCr2MnvqWitmlCUxgdul45jA==}
+  browserslist@4.25.3:
+    resolution: {integrity: sha512-cDGv1kkDI4/0e5yON9yM5G/0A5u8sf5TnmdX5C9qHzI9PPu++sQ9zjm1k9NiOrf3riY4OkK0zSGqfvJyJsgCBQ==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
@@ -1719,8 +1715,8 @@ packages:
     resolution: {integrity: sha512-Fo07WOYGqMfCWHOzSXOt2CxDbC6skS/jO9ynEcmpANMoPrD+W1r1K6Vx7iNm+AQmETU1Xr2t+n8nzkV9t6xh3w==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
 
-  chalk@5.5.0:
-    resolution: {integrity: sha512-1tm8DTaJhPBG3bIkVeZt1iZM9GfSX2lzOeDVZH9R9ffRHpmHvxZ/QhgQH/aDTkswQVt+YHdXAdS/In/30OjCbg==}
+  chalk@5.6.0:
+    resolution: {integrity: sha512-46QrSQFyVSEyYAgQ22hQ+zDa60YHA4fBstHmtSApj1Y5vKtG27fWowW03jCk5KcbXEWPZUIR894aARCA/G1kfQ==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
 
   chokidar@3.6.0:
@@ -2090,8 +2086,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.5.202:
-    resolution: {integrity: sha512-NxbYjRmiHcHXV1Ws3fWUW+SLb62isauajk45LUJ/HgIOkUA7jLZu/X2Iif+X9FBNK8QkF9Zb4Q2mcwXCcY30mg==}
+  electron-to-chromium@1.5.207:
+    resolution: {integrity: sha512-mryFrrL/GXDTmAtIVMVf+eIXM09BBPlO5IQ7lUyKmK8d+A4VpRGG+M3ofoVef6qyF8s60rJei8ymlJxjUA8Faw==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -4379,8 +4375,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  ua-parser-js@1.0.40:
-    resolution: {integrity: sha512-z6PJ8Lml+v3ichVojCiB8toQJBuwR42ySM4ezjXIqXK3M0HczmKQ3LF4rhU55PfD99KEEXQG6yb7iOMyvYuHew==}
+  ua-parser-js@1.0.41:
+    resolution: {integrity: sha512-LbBDqdIC5s8iROCUjMbW1f5dJQTEFB1+KO9ogbvlb3nm9n4YHa5p4KTvFPWvh2Hs8gZMBuiB1/8+pdfe/tDPug==}
     hasBin: true
 
   uglify-js@3.19.3:
@@ -4475,8 +4471,8 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
-  vercel@45.0.9:
-    resolution: {integrity: sha512-CMggAO5DorvmXlsPgEzfvTDEzND88C1T1N+VTjn8PzPaIox5XrhreisS057tLdb9fM/HhE5BjK/JkpphtJfSnw==}
+  vercel@46.0.2:
+    resolution: {integrity: sha512-3NfRcmMdBfW095gXRXCRB9zKIbbDBzgFPGbUZ+PCgjA5OHfa6MfxhDvdQq80oloDFPlql+I1YQuhyk6jNS6xMQ==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -4510,8 +4506,8 @@ packages:
     resolution: {integrity: sha512-yd1RBzSGanHkitROoPFd6qsrxt+oFhg/129YzheDGqeustzX0vTZJZsSsQjVQC4yzBQ56K55XU8gaNCtIzOnTg==}
     engines: {node: '>=10.13.0'}
 
-  webpack@5.101.2:
-    resolution: {integrity: sha512-4JLXU0tD6OZNVqlwzm3HGEhAHufSiyv+skb7q0d2367VDMzrU1Q/ZeepvkcHH0rZie6uqEtTQQe0OEOOluH3Mg==}
+  webpack@5.101.3:
+    resolution: {integrity: sha512-7b0dTKR3Ed//AD/6kkx/o7duS8H3f1a4w3BYpIriX4BzIhjkn4teo05cptsxvLesHFKK5KObnadmCHBwGc+51A==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -4751,7 +4747,7 @@ snapshots:
     dependencies:
       '@babel/compat-data': 7.28.0
       '@babel/helper-validator-option': 7.27.1
-      browserslist: 4.25.2
+      browserslist: 4.25.3
       lru-cache: 5.1.1
       semver: 6.3.1
 
@@ -5684,43 +5680,43 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@henderea/static-site-builder@1.10.133(postcss@8.5.6)(typescript@5.9.2)':
+  '@henderea/static-site-builder@1.10.134(postcss@8.5.6)(typescript@5.9.2)':
     dependencies:
       '@babel/core': 7.28.3
-      babel-loader: 10.0.0(@babel/core@7.28.3)(webpack@5.101.2)
+      babel-loader: 10.0.0(@babel/core@7.28.3)(webpack@5.101.3)
       case-sensitive-paths-webpack-plugin: 2.4.0
-      chalk: 5.5.0
-      copy-webpack-plugin: 13.0.1(webpack@5.101.2)
+      chalk: 5.6.0
+      copy-webpack-plugin: 13.0.1(webpack@5.101.3)
       cross-spawn: 7.0.6
-      css-loader: 7.1.2(webpack@5.101.2)
+      css-loader: 7.1.2(webpack@5.101.3)
       dotenv: 17.2.1
       dotenv-expand: 12.0.2
       ejs: 3.1.10
-      file-loader: 6.2.0(webpack@5.101.2)
+      file-loader: 6.2.0(webpack@5.101.3)
       filesize: 11.0.2
       find-pkg: 2.0.0
       globby: 14.1.0
       gzip-size: 7.0.0
       handlebars: 4.7.8
-      html-webpack-plugin: 5.6.4(webpack@5.101.2)
+      html-webpack-plugin: 5.6.4(webpack@5.101.3)
       lodash: 4.17.21
-      mini-css-extract-plugin: 2.9.4(webpack@5.101.2)
+      mini-css-extract-plugin: 2.9.4(webpack@5.101.3)
       moment: 2.30.1
-      moment-locales-webpack-plugin: 1.2.0(moment@2.30.1)(webpack@5.101.2)
-      postcss-loader: 8.1.1(postcss@8.5.6)(typescript@5.9.2)(webpack@5.101.2)
+      moment-locales-webpack-plugin: 1.2.0(moment@2.30.1)(webpack@5.101.3)
+      postcss-loader: 8.1.1(postcss@8.5.6)(typescript@5.9.2)(webpack@5.101.3)
       postcss-preset-env: 10.2.4(postcss@8.5.6)
       recursive-readdir: 2.2.3
       sass: 1.90.0
-      sass-loader: 16.0.5(sass@1.90.0)(webpack@5.101.2)
+      sass-loader: 16.0.5(sass@1.90.0)(webpack@5.101.3)
       strip-ansi: 7.1.0
-      style-loader: 4.0.0(webpack@5.101.2)
-      terser-webpack-plugin: 5.3.14(webpack@5.101.2)
-      thread-loader: 4.0.4(webpack@5.101.2)
-      ts-loader: 9.5.2(typescript@5.9.2)(webpack@5.101.2)
+      style-loader: 4.0.0(webpack@5.101.3)
+      terser-webpack-plugin: 5.3.14(webpack@5.101.3)
+      thread-loader: 4.0.4(webpack@5.101.3)
+      ts-loader: 9.5.2(typescript@5.9.2)(webpack@5.101.3)
       tsconfig-paths-webpack-plugin: 4.2.0
-      webpack: 5.101.2
-      webpack-manifest-plugin: 5.0.1(webpack@5.101.2)
-      workbox-webpack-plugin: 7.3.0(webpack@5.101.2)
+      webpack: 5.101.3
+      webpack-manifest-plugin: 5.0.1(webpack@5.101.3)
+      workbox-webpack-plugin: 7.3.0(webpack@5.101.3)
     transitivePeerDependencies:
       - '@rspack/core'
       - '@swc/core'
@@ -5932,7 +5928,7 @@ snapshots:
   '@stylistic/eslint-plugin@5.2.3(eslint@9.33.0(jiti@1.21.7))':
     dependencies:
       '@eslint-community/eslint-utils': 4.7.0(eslint@9.33.0(jiti@1.21.7))
-      '@typescript-eslint/types': 8.39.1
+      '@typescript-eslint/types': 8.40.0
       eslint: 9.33.0(jiti@1.21.7)
       eslint-visitor-keys: 4.2.1
       espree: 10.4.0
@@ -6064,8 +6060,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/types@8.39.1': {}
-
   '@typescript-eslint/types@8.40.0': {}
 
   '@typescript-eslint/typescript-estree@8.40.0(typescript@5.9.2)':
@@ -6112,9 +6106,9 @@ snapshots:
 
   '@vercel/error-utils@2.0.3': {}
 
-  '@vercel/express@0.0.5(rollup@2.79.2)':
+  '@vercel/express@0.0.6(rollup@2.79.2)':
     dependencies:
-      '@vercel/node': 5.3.12(rollup@2.79.2)
+      '@vercel/node': 5.3.13(rollup@2.79.2)
       '@vercel/static-config': 3.1.1
       ts-morph: 12.0.0
     transitivePeerDependencies:
@@ -6162,9 +6156,9 @@ snapshots:
 
   '@vercel/go@3.2.3': {}
 
-  '@vercel/hono@0.0.13(rollup@2.79.2)':
+  '@vercel/hono@0.0.14(rollup@2.79.2)':
     dependencies:
-      '@vercel/node': 5.3.12(rollup@2.79.2)
+      '@vercel/node': 5.3.13(rollup@2.79.2)
       '@vercel/static-config': 3.1.1
       ts-morph: 12.0.0
     transitivePeerDependencies:
@@ -6179,7 +6173,7 @@ snapshots:
       '@vercel/static-config': 3.1.1
       ts-morph: 12.0.0
 
-  '@vercel/next@4.11.2(rollup@2.79.2)':
+  '@vercel/next@4.11.3(rollup@2.79.2)':
     dependencies:
       '@vercel/nft': 0.29.2(rollup@2.79.2)
     transitivePeerDependencies:
@@ -6206,7 +6200,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/node@5.3.12(rollup@2.79.2)':
+  '@vercel/node@5.3.13(rollup@2.79.2)':
     dependencies:
       '@edge-runtime/node-utils': 2.3.0
       '@edge-runtime/primitives': 4.1.0
@@ -6433,7 +6427,7 @@ snapshots:
 
   ansi-regex@5.0.1: {}
 
-  ansi-regex@6.1.0: {}
+  ansi-regex@6.2.0: {}
 
   ansi-styles@4.3.0:
     dependencies:
@@ -6534,7 +6528,7 @@ snapshots:
 
   autoprefixer@10.4.21(postcss@8.5.6):
     dependencies:
-      browserslist: 4.25.2
+      browserslist: 4.25.3
       caniuse-lite: 1.0.30001735
       fraction.js: 4.3.7
       normalize-range: 0.1.2
@@ -6546,11 +6540,11 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.1.0
 
-  babel-loader@10.0.0(@babel/core@7.28.3)(webpack@5.101.2):
+  babel-loader@10.0.0(@babel/core@7.28.3)(webpack@5.101.3):
     dependencies:
       '@babel/core': 7.28.3
       find-up: 5.0.0
-      webpack: 5.101.2
+      webpack: 5.101.3
 
   babel-plugin-polyfill-corejs2@0.4.14(@babel/core@7.28.3):
     dependencies:
@@ -6664,7 +6658,7 @@ snapshots:
       serve-static: 1.16.2
       server-destroy: 1.0.1
       socket.io: 4.8.1
-      ua-parser-js: 1.0.40
+      ua-parser-js: 1.0.41
       yargs: 17.7.2
     transitivePeerDependencies:
       - bufferutil
@@ -6672,12 +6666,12 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  browserslist@4.25.2:
+  browserslist@4.25.3:
     dependencies:
       caniuse-lite: 1.0.30001735
-      electron-to-chromium: 1.5.202
+      electron-to-chromium: 1.5.207
       node-releases: 2.0.19
-      update-browserslist-db: 1.1.3(browserslist@4.25.2)
+      update-browserslist-db: 1.1.3(browserslist@4.25.3)
 
   bs-recipes@1.3.4: {}
 
@@ -6732,7 +6726,7 @@ snapshots:
 
   chalk@5.0.1: {}
 
-  chalk@5.5.0: {}
+  chalk@5.6.0: {}
 
   chokidar@3.6.0:
     dependencies:
@@ -6845,18 +6839,18 @@ snapshots:
 
   cookie@0.7.2: {}
 
-  copy-webpack-plugin@13.0.1(webpack@5.101.2):
+  copy-webpack-plugin@13.0.1(webpack@5.101.3):
     dependencies:
       glob-parent: 6.0.2
       normalize-path: 3.0.0
       schema-utils: 4.3.2
       serialize-javascript: 6.0.2
       tinyglobby: 0.2.14
-      webpack: 5.101.2
+      webpack: 5.101.3
 
   core-js-compat@3.45.0:
     dependencies:
-      browserslist: 4.25.2
+      browserslist: 4.25.3
 
   cors@2.8.5:
     dependencies:
@@ -6894,7 +6888,7 @@ snapshots:
       postcss-selector-parser: 7.1.0
       postcss-value-parser: 4.2.0
 
-  css-loader@7.1.2(webpack@5.101.2):
+  css-loader@7.1.2(webpack@5.101.3):
     dependencies:
       icss-utils: 5.1.0(postcss@8.5.6)
       postcss: 8.5.6
@@ -6905,7 +6899,7 @@ snapshots:
       postcss-value-parser: 4.2.0
       semver: 7.7.2
     optionalDependencies:
-      webpack: 5.101.2
+      webpack: 5.101.3
 
   css-prefers-color-scheme@10.0.0(postcss@8.5.6):
     dependencies:
@@ -7078,7 +7072,7 @@ snapshots:
     dependencies:
       jake: 10.9.4
 
-  electron-to-chromium@1.5.202: {}
+  electron-to-chromium@1.5.207: {}
 
   emoji-regex@8.0.0: {}
 
@@ -7540,11 +7534,11 @@ snapshots:
     dependencies:
       flat-cache: 4.0.1
 
-  file-loader@6.2.0(webpack@5.101.2):
+  file-loader@6.2.0(webpack@5.101.3):
     dependencies:
       loader-utils: 2.0.4
       schema-utils: 3.3.0
-      webpack: 5.101.2
+      webpack: 5.101.3
 
   file-uri-to-path@1.0.0: {}
 
@@ -7799,7 +7793,7 @@ snapshots:
       relateurl: 0.2.7
       terser: 5.43.1
 
-  html-webpack-plugin@5.6.4(webpack@5.101.2):
+  html-webpack-plugin@5.6.4(webpack@5.101.3):
     dependencies:
       '@types/html-minifier-terser': 6.1.0
       html-minifier-terser: 6.1.0
@@ -7807,7 +7801,7 @@ snapshots:
       pretty-error: 4.0.0
       tapable: 2.2.2
     optionalDependencies:
-      webpack: 5.101.2
+      webpack: 5.101.3
 
   htmlparser2@6.1.0:
     dependencies:
@@ -8221,11 +8215,11 @@ snapshots:
 
   mimic-fn@2.1.0: {}
 
-  mini-css-extract-plugin@2.9.4(webpack@5.101.2):
+  mini-css-extract-plugin@2.9.4(webpack@5.101.3):
     dependencies:
       schema-utils: 4.3.2
       tapable: 2.2.2
-      webpack: 5.101.2
+      webpack: 5.101.3
 
   minimatch@3.1.2:
     dependencies:
@@ -8264,11 +8258,11 @@ snapshots:
 
   mkdirp@3.0.1: {}
 
-  moment-locales-webpack-plugin@1.2.0(moment@2.30.1)(webpack@5.101.2):
+  moment-locales-webpack-plugin@1.2.0(moment@2.30.1)(webpack@5.101.3):
     dependencies:
       lodash.difference: 4.5.0
       moment: 2.30.1
-      webpack: 5.101.2
+      webpack: 5.101.3
 
   moment-range@4.0.2(moment@2.30.1):
     dependencies:
@@ -8604,14 +8598,14 @@ snapshots:
       '@csstools/utilities': 2.0.0(postcss@8.5.6)
       postcss: 8.5.6
 
-  postcss-loader@8.1.1(postcss@8.5.6)(typescript@5.9.2)(webpack@5.101.2):
+  postcss-loader@8.1.1(postcss@8.5.6)(typescript@5.9.2)(webpack@5.101.3):
     dependencies:
       cosmiconfig: 9.0.0(typescript@5.9.2)
       jiti: 1.21.7
       postcss: 8.5.6
       semver: 7.7.2
     optionalDependencies:
-      webpack: 5.101.2
+      webpack: 5.101.3
     transitivePeerDependencies:
       - typescript
 
@@ -8702,7 +8696,7 @@ snapshots:
       '@csstools/postcss-trigonometric-functions': 4.0.9(postcss@8.5.6)
       '@csstools/postcss-unset-value': 4.0.0(postcss@8.5.6)
       autoprefixer: 10.4.21(postcss@8.5.6)
-      browserslist: 4.25.2
+      browserslist: 4.25.3
       css-blank-pseudo: 7.0.1(postcss@8.5.6)
       css-has-pseudo: 7.0.2(postcss@8.5.6)
       css-prefers-color-scheme: 10.0.0(postcss@8.5.6)
@@ -8956,12 +8950,12 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  sass-loader@16.0.5(sass@1.90.0)(webpack@5.101.2):
+  sass-loader@16.0.5(sass@1.90.0)(webpack@5.101.3):
     dependencies:
       neo-async: 2.6.2
     optionalDependencies:
       sass: 1.90.0
-      webpack: 5.101.2
+      webpack: 5.101.3
 
   sass@1.90.0:
     dependencies:
@@ -9308,7 +9302,7 @@ snapshots:
 
   strip-ansi@7.1.0:
     dependencies:
-      ansi-regex: 6.1.0
+      ansi-regex: 6.2.0
 
   strip-bom@3.0.0: {}
 
@@ -9320,9 +9314,9 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  style-loader@4.0.0(webpack@5.101.2):
+  style-loader@4.0.0(webpack@5.101.3):
     dependencies:
-      webpack: 5.101.2
+      webpack: 5.101.3
 
   supports-color@7.2.0:
     dependencies:
@@ -9363,14 +9357,14 @@ snapshots:
       type-fest: 0.16.0
       unique-string: 2.0.0
 
-  terser-webpack-plugin@5.3.14(webpack@5.101.2):
+  terser-webpack-plugin@5.3.14(webpack@5.101.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.30
       jest-worker: 27.5.1
       schema-utils: 4.3.2
       serialize-javascript: 6.0.2
       terser: 5.43.1
-      webpack: 5.101.2
+      webpack: 5.101.3
 
   terser@5.43.1:
     dependencies:
@@ -9379,13 +9373,13 @@ snapshots:
       commander: 2.20.3
       source-map-support: 0.5.21
 
-  thread-loader@4.0.4(webpack@5.101.2):
+  thread-loader@4.0.4(webpack@5.101.3):
     dependencies:
       json-parse-better-errors: 1.0.2
       loader-runner: 4.3.0
       neo-async: 2.6.2
       schema-utils: 4.3.2
-      webpack: 5.101.2
+      webpack: 5.101.3
 
   throttleit@2.1.0: {}
 
@@ -9420,7 +9414,7 @@ snapshots:
     dependencies:
       typescript: 5.9.2
 
-  ts-loader@9.5.2(typescript@5.9.2)(webpack@5.101.2):
+  ts-loader@9.5.2(typescript@5.9.2)(webpack@5.101.3):
     dependencies:
       chalk: 4.1.2
       enhanced-resolve: 5.18.3
@@ -9428,7 +9422,7 @@ snapshots:
       semver: 7.7.2
       source-map: 0.7.6
       typescript: 5.9.2
-      webpack: 5.101.2
+      webpack: 5.101.3
 
   ts-morph@12.0.0:
     dependencies:
@@ -9535,7 +9529,7 @@ snapshots:
 
   typescript@5.9.2: {}
 
-  ua-parser-js@1.0.40: {}
+  ua-parser-js@1.0.41: {}
 
   uglify-js@3.19.3:
     optional: true
@@ -9584,9 +9578,9 @@ snapshots:
 
   upath@1.2.0: {}
 
-  update-browserslist-db@1.1.3(browserslist@4.25.2):
+  update-browserslist-db@1.1.3(browserslist@4.25.3):
     dependencies:
-      browserslist: 4.25.2
+      browserslist: 4.25.3
       escalade: 3.2.0
       picocolors: 1.1.1
 
@@ -9609,17 +9603,17 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vercel@45.0.9(rollup@2.79.2):
+  vercel@46.0.2(rollup@2.79.2):
     dependencies:
       '@vercel/blob': 1.0.2
       '@vercel/build-utils': 11.0.1
-      '@vercel/express': 0.0.5(rollup@2.79.2)
+      '@vercel/express': 0.0.6(rollup@2.79.2)
       '@vercel/fun': 1.1.6
       '@vercel/go': 3.2.3
-      '@vercel/hono': 0.0.13(rollup@2.79.2)
+      '@vercel/hono': 0.0.14(rollup@2.79.2)
       '@vercel/hydrogen': 1.2.3
-      '@vercel/next': 4.11.2(rollup@2.79.2)
-      '@vercel/node': 5.3.12(rollup@2.79.2)
+      '@vercel/next': 4.11.3(rollup@2.79.2)
+      '@vercel/node': 5.3.13(rollup@2.79.2)
       '@vercel/python': 5.0.0
       '@vercel/redwood': 2.3.4(rollup@2.79.2)
       '@vercel/remix-builder': 5.4.10(rollup@2.79.2)
@@ -9645,10 +9639,10 @@ snapshots:
 
   webidl-conversions@4.0.2: {}
 
-  webpack-manifest-plugin@5.0.1(webpack@5.101.2):
+  webpack-manifest-plugin@5.0.1(webpack@5.101.3):
     dependencies:
       tapable: 2.2.2
-      webpack: 5.101.2
+      webpack: 5.101.3
       webpack-sources: 2.3.1
 
   webpack-sources@1.4.3:
@@ -9663,7 +9657,7 @@ snapshots:
 
   webpack-sources@3.3.3: {}
 
-  webpack@5.101.2:
+  webpack@5.101.3:
     dependencies:
       '@types/eslint-scope': 3.7.7
       '@types/estree': 1.0.8
@@ -9673,7 +9667,7 @@ snapshots:
       '@webassemblyjs/wasm-parser': 1.14.1
       acorn: 8.15.0
       acorn-import-phases: 1.0.4(acorn@8.15.0)
-      browserslist: 4.25.2
+      browserslist: 4.25.3
       chrome-trace-event: 1.0.4
       enhanced-resolve: 5.18.3
       es-module-lexer: 1.7.0
@@ -9687,7 +9681,7 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 4.3.2
       tapable: 2.2.2
-      terser-webpack-plugin: 5.3.14(webpack@5.101.2)
+      terser-webpack-plugin: 5.3.14(webpack@5.101.3)
       watchpack: 2.4.4
       webpack-sources: 3.3.3
     transitivePeerDependencies:
@@ -9871,12 +9865,12 @@ snapshots:
 
   workbox-sw@7.3.0: {}
 
-  workbox-webpack-plugin@7.3.0(webpack@5.101.2):
+  workbox-webpack-plugin@7.3.0(webpack@5.101.3):
     dependencies:
       fast-json-stable-stringify: 2.1.0
       pretty-bytes: 5.6.0
       upath: 1.2.0
-      webpack: 5.101.2
+      webpack: 5.101.3
       webpack-sources: 1.4.3
       workbox-build: 7.3.0
     transitivePeerDependencies:

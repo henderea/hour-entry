@@ -25,10 +25,10 @@
     "url": "git+https://github.com/henderea/hour-entry.git"
   },
   "devDependencies": {
-    "@henderea/static-site-builder": "^1.11.12",
+    "@henderea/static-site-builder": "^1.11.13",
     "@stylistic/eslint-plugin": "^5.7.0",
     "@types/jquery": "^3.5.33",
-    "@types/lodash": "^4.17.21",
+    "@types/lodash": "^4.17.23",
     "@typescript-eslint/eslint-plugin": "^8.53.0",
     "@typescript-eslint/parser": "^8.53.0",
     "browser-sync": "^3.0.4",
@@ -40,7 +40,7 @@
     "serve": "^14.2.5",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.53.0",
-    "vercel": "^50.1.6"
+    "vercel": "^50.3.0"
   },
   "dependencies": {
     "idb": "^8.0.3",

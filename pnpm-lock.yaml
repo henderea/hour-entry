@@ -28,8 +28,8 @@ importers:
         version: 9.3.1
     devDependencies:
       '@henderea/static-site-builder':
-        specifier: ^1.11.23
-        version: 1.11.23(postcss@8.5.6)(typescript@5.9.3)
+        specifier: ^1.11.24
+        version: 1.11.24(postcss@8.5.6)(typescript@5.9.3)
       '@stylistic/eslint-plugin':
         specifier: ^5.9.0
         version: 5.9.0(eslint@9.39.3(jiti@2.6.1))
@@ -73,8 +73,8 @@ importers:
         specifier: ^8.56.1
         version: 8.56.1(eslint@9.39.3(jiti@2.6.1))(typescript@5.9.3)
       vercel:
-        specifier: ^50.23.1
-        version: 50.23.1(rollup@2.80.0)(typescript@5.9.3)
+        specifier: ^50.25.1
+        version: 50.25.1(rollup@2.80.0)(typescript@5.9.3)
 
 packages:
 
@@ -1127,8 +1127,8 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@henderea/static-site-builder@1.11.23':
-    resolution: {integrity: sha512-0Y3P2b15qfixe/sUVz9MzSwDtPSnW8qhCIPElxXqwTlDhzB7EJMkwRjUuCk1rw2D6qaX5ZmTQEhhD5CVQv6AEQ==}
+  '@henderea/static-site-builder@1.11.24':
+    resolution: {integrity: sha512-L4KW33lpbCoML8c3erkpVHayV5klzGSI94aEUDHAAX0NTGQI5f5s8y5fNiiRMbG3gTQi5Beg/7Wje0MtAaAeWw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1629,8 +1629,8 @@ packages:
   '@types/node@20.11.0':
     resolution: {integrity: sha512-o9bjXmDNcF7GbM4CNQpmi+TutCgap/K3w1JyKgxAjqx41zp9qlIAVFi0IhCNsJcXolEqLWhbFbEeL0PvYm4pcQ==}
 
-  '@types/node@25.3.0':
-    resolution: {integrity: sha512-4K3bqJpXpqfg2XKGK9bpDTc6xO/xoUP/RBWS7AtRMug6zZFaRekiLzjVtAoZMquxoAbzBvy5nxQ7veS5eYzf8A==}
+  '@types/node@25.3.2':
+    resolution: {integrity: sha512-RpV6r/ij22zRRdyBPcxDeKAzH43phWVKEjL2iksqo1Vz3CuBUrgmPpPhALKiRfU7OMCmeeO9vECBMsV0hMTG8Q==}
 
   '@types/resolve@1.20.2':
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
@@ -1697,8 +1697,8 @@ packages:
     resolution: {integrity: sha512-KiROIzYdEV85YygXw6BI/Dx4fnBlFQu6Mq4QE4MOH9fFnhohw6wX/OAvDY2/C+ut0I3RSPKenvZJIVYqJNkhEw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@vercel/backends@0.0.37':
-    resolution: {integrity: sha512-RSUWaDIlcfv6Q2B34Lce77RhB5lsG0bTz6rOrPAB1ZzkUNpDVlmobGxIZTgSD3MHmJGJCP8MBjM2zqG9jY3XYQ==}
+  '@vercel/backends@0.0.39':
+    resolution: {integrity: sha512-Jq6gEGs06Y4mjJQjen9qkPBdEXXBxGiH7bUvumqy0/+8XTx7IF84taGB6WoVL/r7xHpjQN3X+ewzYXhfu9eNxg==}
     peerDependencies:
       typescript: ^4.0.0 || ^5.0.0
 
@@ -1706,11 +1706,11 @@ packages:
     resolution: {integrity: sha512-oYWiJbWRQ7gz9Mj0X/NHFJ3OcLMOBzq/2b3j6zeNrQmtFo6dHwU8FAwNpxVIYddVMd+g8eqEi7iRueYx8FtM0Q==}
     engines: {node: '>=20.0.0'}
 
-  '@vercel/build-utils@13.5.0':
-    resolution: {integrity: sha512-hDSJbpw7KFlX5d/L7e6x5pDfln7puE6EPiy4y+19zE0yBTNuO/d8tmpMPamt6uzzIKTT8tuAdef+QDVzGshaOw==}
+  '@vercel/build-utils@13.6.1':
+    resolution: {integrity: sha512-/qRDC8swTUDrdQLkKBnyY8TSk+DeI8RTOIhAba2BwCVCHaZoLF8+sdOCeHud1QJk/3a8R5rAmMQOvEI4P2FRZQ==}
 
-  '@vercel/cervel@0.0.24':
-    resolution: {integrity: sha512-ObnEL01U3mAfdNCEUQ/ptW0ZvBWsqKGGsBmqOkhZLjwy3cGZWuHInR/kWoaj6LlvZhfIsqUiL1+1e/ffF+2tRQ==}
+  '@vercel/cervel@0.0.26':
+    resolution: {integrity: sha512-Y7bzTBJpGdqpBaB1oAe9U7IwILJEQHLLVkoJ6uKPeQPGVoSVec1RacS4/XBxqp5i6l+gqhZNF7kCU8TBWLmqFA==}
     hasBin: true
     peerDependencies:
       typescript: ^4.0.0 || ^5.0.0
@@ -1719,17 +1719,17 @@ packages:
     resolution: {integrity: sha512-Zfq6FbIcYl9gaAmVu6ROsqUiCNwpEj3Ljz/tMX5fl12Z95OFOxzf7vlO03WE5JBU/ri1tBDFHnW41dihMINOPQ==}
     engines: {node: '>=14'}
 
-  '@vercel/elysia@0.1.40':
-    resolution: {integrity: sha512-AuKj7joDY8pc4V5d17zg8xgjVDvz3oRULqSHp4Rh6xkAqeDEw5CRExkbsxZe8/7UD5PJxsuJ8f5lOs0TfXbeoQ==}
+  '@vercel/elysia@0.1.42':
+    resolution: {integrity: sha512-X+ellLiJ3oC8t2L92JhC4PXO922bVOJpk7/XAAXK+llJflanenKQj1fv7K0g3bp2acbnxLdQmyK/oi8tkDAqIQ==}
 
   '@vercel/error-utils@2.0.3':
     resolution: {integrity: sha512-CqC01WZxbLUxoiVdh9B/poPbNpY9U+tO1N9oWHwTl5YAZxcqXmmWJ8KNMFItJCUUWdY3J3xv8LvAuQv2KZ5YdQ==}
 
-  '@vercel/express@0.1.49':
-    resolution: {integrity: sha512-93JBGRUtbBlWtRmT3TgC+Y0F8QUetFgx8c8FLIacI3bcD7K6evnwS3J5b098w+Tt+VCsRRkTk+wlHN9w36Npug==}
+  '@vercel/express@0.1.51':
+    resolution: {integrity: sha512-2xpyDstOWLUkunZ8FOEawHkPgwCjWiT8HMoyLGGYPsWid9BtzHngQD2Rx7tB6O/v/dt1ofo0MszEemC3z1+MHg==}
 
-  '@vercel/fastify@0.1.43':
-    resolution: {integrity: sha512-scs8Y9EjW1lHjaIxNcAKCPxFG0Xt9kPEoH+DhKmEE/zbQ+pbm9YQ023+A732kmzhYrU5mhGRZkwcPHM5n6H9ng==}
+  '@vercel/fastify@0.1.45':
+    resolution: {integrity: sha512-dhWvmDr3owa7ah/ihhqtccvG9sAIf2c3mnRkuPQozcwXXbrp2Tk+a5HAUxShja7qB0kryijuIxK6N1OQJP9twg==}
 
   '@vercel/fun@1.3.0':
     resolution: {integrity: sha512-8erw9uPe0dFg45THkNxmjtvMX143SkZebmjgSVbcM3XCkXu3RIiBaJMcMNG8aaS+rnTuw8+d4De9HVT0M/r3wg==}
@@ -1738,29 +1738,29 @@ packages:
   '@vercel/gatsby-plugin-vercel-analytics@1.0.11':
     resolution: {integrity: sha512-iTEA0vY6RBPuEzkwUTVzSHDATo1aF6bdLLspI68mQ/BTbi5UQEGjpjyzdKOVcSYApDtFU6M6vypZ1t4vIEnHvw==}
 
-  '@vercel/gatsby-plugin-vercel-builder@2.0.139':
-    resolution: {integrity: sha512-Cl/7f2pfZ2BaaUzvccXBrPb/sIsf+g8E1eph8VKhfmsPIeqKQx7/Lr1DQy4Bx4Ic6phk2IY+j0hy8XErtlVm6g==}
+  '@vercel/gatsby-plugin-vercel-builder@2.0.141':
+    resolution: {integrity: sha512-esJcrTXNobTe9bpiHeUVyDNtCDjG2TNQxtkw0yMq1RyLApJuRfpw47r9x6wGYKeS/Coy6FvCroVyeTo5pgWchw==}
 
-  '@vercel/go@3.4.2':
-    resolution: {integrity: sha512-+Hd2W701PWajQHiPSQ+jrjNUXLbwHYRXUkzv0zqMTySQzwdvls/wnr34VYn9tyzw2YxAzHogBpSNyC1c9TDEVg==}
+  '@vercel/go@3.4.3':
+    resolution: {integrity: sha512-LDT4wpx7SW2UJHd3rOL4+2m2V4w7a5zjyuU0pu0yDBiuxp9bEh7QuAH5qZC7pINGLC3vGftiFVzynd5N454sVA==}
 
-  '@vercel/h3@0.1.49':
-    resolution: {integrity: sha512-x9QVqRVzMyWSHwXyNBQs2DMnmg3PeCPg+iWzpzs0LhnDVUBsU5sxSdswQiTxw3FjM+lMY0FQdEX0SkTGntda8Q==}
+  '@vercel/h3@0.1.51':
+    resolution: {integrity: sha512-4OrHj0f47N1O9ShUFNFIZQYtbr/cUq8TcUU4Q8yfYlVKooqXme0Ql79G7LohDivcoHL7RmnQ14o2/C6/JWTzLg==}
 
-  '@vercel/hono@0.2.43':
-    resolution: {integrity: sha512-c3y1yiQe/7QFngIaV1bmoWdfP7XnTkJFq+NyY4zFbT3TBX9HAlG6pUtrdLL5jikVniLmurZW6I0gq55HudKQNA==}
+  '@vercel/hono@0.2.45':
+    resolution: {integrity: sha512-j5HNFtEU8NpV82bqPGG0v4VUxaJ/35RxW9ZQTrb2tKBQqGp0okBOnGr+zb3eJsUygs7VbnpEQ4Nb3qDtZ+DD+w==}
 
   '@vercel/hydrogen@1.3.5':
     resolution: {integrity: sha512-7EE6yVKcCnjMb1io9y069GkLyGyIzRbW3Krm3Q7EEfJ3P46h9xe9v/O5UhBoPrwtqDUHxmDngZp9YyfgY8IITA==}
 
-  '@vercel/koa@0.1.23':
-    resolution: {integrity: sha512-Et5svjaAcA/K72qzFJxNLLtgqM8zMmLTT1D2aRUCZY/8JxWLCmY12XmBvTrSN+QwM+q/+r5O2/tJCXi4Cj0+Aw==}
+  '@vercel/koa@0.1.25':
+    resolution: {integrity: sha512-uDUe7FXsrhVGR6sX8Q5ynMTtQVagLJ4PnS1yuBLZSTg3k/3LrUrtNIenBQGEBOTTL9JmqUJ+AZdbwuBaUtU7Mg==}
 
-  '@vercel/nestjs@0.2.44':
-    resolution: {integrity: sha512-KBy2NllhRgFHvCtUh+IPNpO1BElm6mlOfjWXdG7HSyNBNQXCd7HXKcCr6PU9Ge1xOwlebx12PoIvBdzZCX59kw==}
+  '@vercel/nestjs@0.2.46':
+    resolution: {integrity: sha512-0QTgF5P03BEir2apHgwh3cRkkOQTXgFz/2SPs+B1Aab64NnFvM7peFIuAjGnfFNvO1DwSLOyKEXTepihdifsYQ==}
 
-  '@vercel/next@4.15.33':
-    resolution: {integrity: sha512-qUIrqjE0Lw17JeSngRCHSwH0mnYmXPY4VvmGO3VaZYmb4tGGMM1SMNqfl11SZP687ouFGbu0w2gW0WFnNWUD2Q==}
+  '@vercel/next@4.15.36':
+    resolution: {integrity: sha512-wlrxO/qj9IjO0SO5qM1kG5MVOks8LCEysGotbgtrL9EuGS2EEF6zK5/Ww8BLVqUzukcan7lv0Fxd2/oLh0R4Jg==}
 
   '@vercel/nft@1.1.1':
     resolution: {integrity: sha512-mKMGa7CEUcXU75474kOeqHbtvK1kAcu4wiahhmlUenB5JbTQB8wVlDI8CyHR3rpGo0qlzoRWqcDzI41FUoBJCA==}
@@ -1772,20 +1772,20 @@ packages:
     engines: {node: '>=20'}
     hasBin: true
 
-  '@vercel/node@5.6.7':
-    resolution: {integrity: sha512-a6T/59XUX2uQ5e5Z9aw8svTmaqxR54omUS88Ixfi50N40artnU1Olk9uQExf/9c5STNf8ewriQih1ep0PXx74g==}
+  '@vercel/node@5.6.9':
+    resolution: {integrity: sha512-SiLToxNIGNSaELFhMorNAWIW1LkBCOEIw7+P3MxDxeaY9RAn5nqymT4uLg95L94JvI4dAFZbdfS7ntgmEfB64A==}
 
-  '@vercel/python-analysis@0.7.0':
-    resolution: {integrity: sha512-0l5ITyZd8V6etELQd4Xmblc2rou5Jlj6hzFHZ+Dgo7/i7HvcWvZ+thZ5IaPdiXQNYo2L8CvUAsGvybkstuFc8w==}
+  '@vercel/python-analysis@0.8.1':
+    resolution: {integrity: sha512-gW1pZDqJaTcjZYPvNhXXLOPgLu6vJW9PKweJoX2f8EKAoW+JIiYncl8AddcSlngNhQRG7SqUl2u3qosZM4kUBA==}
 
-  '@vercel/python@6.16.0':
-    resolution: {integrity: sha512-vsSwslDsACGsOptjlnQv7ebpsHpEVSMf1UvMY+BzEwTpUwG0Fb/Ut3+QLponutGfNLAw7GHA7x6Fd/JNtb7+fw==}
+  '@vercel/python@6.18.0':
+    resolution: {integrity: sha512-iZB+MhHQjcKHKLZnotkRaUiUZ2NAvu3t66pHkGz/bHm1dtZhwhj5LsYfy3ymDUEEvyfHp3YzrME0q/GAWn6GTw==}
 
   '@vercel/redwood@2.4.9':
     resolution: {integrity: sha512-U7bYIuWfMEFMIcKKbX7lTT8pFNjig9Q3vLeCYRYQUrKVP8xLoUBXSEfW3ijtWJBUV8GmbZCDI30A16uUfNhN+g==}
 
-  '@vercel/remix-builder@5.5.10':
-    resolution: {integrity: sha512-E4fqjBaztj/5JG8HCbvqO/JZyP3b+hpse+aAMb9twvgyIRfkkl+146liFF2I8/M/cc1PWkSfaqa8LF0+5x4egA==}
+  '@vercel/remix-builder@5.6.0':
+    resolution: {integrity: sha512-neTpO4aGksYcPJjTbAEUhWmsOdFqgx02H47RUsXBKHdMTW4ZKrL9oAKT3pD+Bv9kUgj7uRzqAr8JeiPILPWybg==}
 
   '@vercel/ruby@2.3.2':
     resolution: {integrity: sha512-okIgMmPEePyDR9TZYaKM4oftcxVHM5Dbdl7V/tIdh3lq8MGLi7HR5vvQglmZUwZOeovE6MVtezxl960EOzeIiQ==}
@@ -1793,8 +1793,8 @@ packages:
   '@vercel/rust@1.0.5':
     resolution: {integrity: sha512-Y03g59nv1uT6Da+PvB/50WqJSHlaFZ9MSkG00R82dUcTySslMbQdOeaXymZtabrmU8zQYhWDb1/CwBki8sWnaQ==}
 
-  '@vercel/static-build@2.8.41':
-    resolution: {integrity: sha512-h9Jj287fu2qp5uF/my7bj1dJZmf+8G/++U64ZsDB8dm8cKVjX8jjajzoMFzoXvFFK2n8tlBIl60dx6Z9QUD0Bw==}
+  '@vercel/static-build@2.8.43':
+    resolution: {integrity: sha512-9zVgVA7sIvikRdmQFsSM/40NQ6kxaucpUpOW/+BBrEe9BAx9JcHsO6wkhkJ4rdeVQ5eSzZMzPS9NR4ifqv5Low==}
 
   '@vercel/static-config@3.1.2':
     resolution: {integrity: sha512-2d+TXr6K30w86a+WbMbGm2W91O0UzO5VeemZYBBUJbCjk/5FLLGIi8aV6RS2+WmaRvtcqNTn2pUA7nCOK3bGcQ==}
@@ -2020,8 +2020,8 @@ packages:
     resolution: {integrity: sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==}
     engines: {node: '>= 4.0.0'}
 
-  autoprefixer@10.4.24:
-    resolution: {integrity: sha512-uHZg7N9ULTVbutaIsDRoUkoS8/h3bdsmVJYZ5l3wv8Cp/6UIIoRDm90hZ+BwxUj/hGBEzLxdHNSKuFpn8WOyZw==}
+  autoprefixer@10.4.27:
+    resolution: {integrity: sha512-NP9APE+tO+LuJGn7/9+cohklunJsXWiaWEfV3si4Gi/XHDwVNgkwr1J3RQYFIvPy76GmJ9/bW8vyoU1LcxwKHA==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -2101,8 +2101,11 @@ packages:
   brace-expansion@1.1.12:
     resolution: {integrity: sha512-9T9UjW3r0UW5c1Q7GTwllptXwhvYmEzFhzMfZ9H7FQWt+uZePjZPjBP/W1ZEyZ1twGWom5/56TF4lPcqjnDHcg==}
 
-  brace-expansion@5.0.3:
-    resolution: {integrity: sha512-fy6KJm2RawA5RcHkLa1z/ScpBeA762UF9KmZQxwIbDtRJrgLzM10depAiEQ+CXYcoiqW1/m96OAAoke2nE9EeA==}
+  brace-expansion@2.0.2:
+    resolution: {integrity: sha512-Jt0vHyM+jmUBqojB7E1NIYadt0vI0Qxjxd2TErW94wDz+E2LAm5vKMXXwg6ZZBTHPuUlDgQHKXvjGBdfcF1ZDQ==}
+
+  brace-expansion@5.0.4:
+    resolution: {integrity: sha512-h+DEnpVvxmfVefa4jFbCf5HdH5YMDXRsmKflpf1pILZWRFlTbJpxeU55nJl4Smt5HQaGzg1o6RHFPJaOqnmBDg==}
     engines: {node: 18 || 20 || >=22}
 
   braces@3.0.3:
@@ -2931,9 +2934,8 @@ packages:
   file-uri-to-path@1.0.0:
     resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==}
 
-  filelist@1.0.5:
-    resolution: {integrity: sha512-ct/ckWBV/9Dg3MlvCXsLcSUyoWwv9mCKqlhLNB2DAuXR/NZolSXlQqP5dyy6guWlPXBhodZyZ5lGPQcbQDxrEQ==}
-    engines: {node: 20 || >=22}
+  filelist@1.0.6:
+    resolution: {integrity: sha512-5giy2PkLYY1cP39p17Ech+2xlpTRL9HLspOfEgm0L6CwBXBTgsK5ou0JtzYuepxkaQ/tvhCFIJ5uXo0OrM2DxA==}
 
   filesize@11.0.13:
     resolution: {integrity: sha512-mYJ/qXKvREuO0uH8LTQJ6v7GsUvVOguqxg2VTwQUkyTPXXRRWPdjuUPVqdBrJQhvci48OHlNGRnux+Slr2Rnvw==}
@@ -3667,15 +3669,19 @@ packages:
     resolution: {integrity: sha512-enIvLvRAFZYXJzkCYG5RKmPfrFArdLv+R+lbQ53BmIMLIry74bjKzX6iHAm8WYamJkhSSEabrWN5D97XnKObjQ==}
     engines: {node: 20 || >=22}
 
-  minimatch@10.2.2:
-    resolution: {integrity: sha512-+G4CpNBxa5MprY+04MbgOw1v7So6n5JY166pFi9KfYwT78fxScCeSNQSNzp6dpPSW2rONOps6Ocam1wFhCgoVw==}
+  minimatch@10.2.4:
+    resolution: {integrity: sha512-oRjTw/97aTBN0RHbYCdtF1MQfvusSIBQM0IZEgzl6426+8jSC0nF1a/GmnVLpfB9yyr6g6FTqWqiZVbxrtaCIg==}
     engines: {node: 18 || 20 || >=22}
 
   minimatch@3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
 
-  minimatch@3.1.3:
-    resolution: {integrity: sha512-M2GCs7Vk83NxkUyQV1bkABc4yxgz9kILhHImZiBPAZ9ybuvCb0/H7lEl5XvIg3g+9d4eNotkZA5IWwYl0tibaA==}
+  minimatch@3.1.5:
+    resolution: {integrity: sha512-VgjWUsnnT6n+NUk6eZq77zeFdpW2LWDzP6zFGrCbHXiYNul5Dzqk2HHQ5uFH2DNW5Xbp8+jVzaeNt94ssEEl4w==}
+
+  minimatch@5.1.9:
+    resolution: {integrity: sha512-7o1wEA2RyMP7Iu7GNba9vc0RWWGACJOCZBJX2GJWip0ikV+wcOsgVuY9uE8CPiyQhkGFSlhuSkZPavN7u1c2Fw==}
+    engines: {node: '>=10'}
 
   minimist@1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
@@ -4829,8 +4835,8 @@ packages:
     resolution: {integrity: sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==}
     engines: {node: '>=8'}
 
-  strip-ansi@7.1.2:
-    resolution: {integrity: sha512-gmBGslpoQJtgnMAvOVqGZpEz9dyoKTCzy2nfz/n8aIFhN/jCE/rCmcxabB6jOOHV+0WNnylOxaxBQPSvcWklhA==}
+  strip-ansi@7.2.0:
+    resolution: {integrity: sha512-yDPMNjp4WyfYBkHnjIRLfca1i6KMyGCtsVgoKe/z1+6vukgaENdgGBZt+ZmKPc4gavvEZ5OgHfHdrazhgNyG7w==}
     engines: {node: '>=12'}
 
   strip-bom@3.0.0:
@@ -5144,8 +5150,8 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
-  vercel@50.23.1:
-    resolution: {integrity: sha512-qkfnvSt5z8cuo7O3RnAHy2CMcI41/vOJWytpJMba28/OVJDXhjxFx7/WoWFH1gXDPCcUsHLsxkxOjDF8IvUv2Q==}
+  vercel@50.25.1:
+    resolution: {integrity: sha512-6lr3wi3AkDO5ELxu/BbPZEhUVNfnH0OL6UymEk4q+y/vDtGga9ljXKO8DULGC3wCcG5HRuDD7d540aSMkvJ7+w==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -5175,8 +5181,8 @@ packages:
     resolution: {integrity: sha512-7tP1PdV4vF+lYPnkMR0jMY5/la2ub5Fc/8VQrrU+lXkiM6C4TjVfGw7iKfyhnTQOsD+6Q/iKw0eFciziRgD58Q==}
     engines: {node: '>=10.13.0'}
 
-  webpack@5.105.2:
-    resolution: {integrity: sha512-dRXm0a2qcHPUBEzVk8uph0xWSjV/xZxenQQbLwnwP7caQCYpqG1qddwlyEkIDkYn0K8tvmcrZ+bOrzoQ3HxCDw==}
+  webpack@5.105.3:
+    resolution: {integrity: sha512-LLBBA4oLmT7sZdHiYE/PeVuifOxYyE2uL/V+9VQP7YSYdJU7bSf7H8bZRRxW8kEPMkmVjnrXmoR3oejIdX0xbg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -6471,7 +6477,7 @@ snapshots:
     dependencies:
       '@eslint/object-schema': 2.1.7
       debug: 4.4.3
-      minimatch: 3.1.3
+      minimatch: 3.1.5
     transitivePeerDependencies:
       - supports-color
 
@@ -6492,7 +6498,7 @@ snapshots:
       ignore: 5.3.2
       import-fresh: 3.3.1
       js-yaml: 4.1.1
-      minimatch: 3.1.3
+      minimatch: 3.1.5
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
@@ -6508,46 +6514,46 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@henderea/static-site-builder@1.11.23(postcss@8.5.6)(typescript@5.9.3)':
+  '@henderea/static-site-builder@1.11.24(postcss@8.5.6)(typescript@5.9.3)':
     dependencies:
       '@babel/core': 7.29.0
       '@babel/plugin-transform-runtime': 7.29.0(@babel/core@7.29.0)
       '@babel/preset-env': 7.29.0(@babel/core@7.29.0)
-      babel-loader: 10.0.0(@babel/core@7.29.0)(webpack@5.105.2)
+      babel-loader: 10.0.0(@babel/core@7.29.0)(webpack@5.105.3)
       case-sensitive-paths-webpack-plugin: 2.4.0
       chalk: 5.6.2
-      copy-webpack-plugin: 13.0.1(webpack@5.105.2)
+      copy-webpack-plugin: 13.0.1(webpack@5.105.3)
       cross-spawn: 7.0.6
-      css-loader: 7.1.4(webpack@5.105.2)
+      css-loader: 7.1.4(webpack@5.105.3)
       cssnano: 7.1.2(postcss@8.5.6)
       dotenv: 17.3.1
       dotenv-expand: 12.0.3
       ejs: 4.0.1
-      file-loader: 6.2.0(webpack@5.105.2)
+      file-loader: 6.2.0(webpack@5.105.3)
       filesize: 11.0.13
       find-pkg: 2.0.0
       globby: 16.1.1
       gzip-size: 7.0.0
       handlebars: 4.7.8
-      html-webpack-plugin: 5.6.6(webpack@5.105.2)
+      html-webpack-plugin: 5.6.6(webpack@5.105.3)
       lodash: 4.17.23
-      mini-css-extract-plugin: 2.10.0(webpack@5.105.2)
+      mini-css-extract-plugin: 2.10.0(webpack@5.105.3)
       moment: 2.30.1
-      moment-locales-webpack-plugin: 1.2.0(moment@2.30.1)(webpack@5.105.2)
-      postcss-loader: 8.2.1(postcss@8.5.6)(typescript@5.9.3)(webpack@5.105.2)
+      moment-locales-webpack-plugin: 1.2.0(moment@2.30.1)(webpack@5.105.3)
+      postcss-loader: 8.2.1(postcss@8.5.6)(typescript@5.9.3)(webpack@5.105.3)
       postcss-preset-env: 11.2.0(postcss@8.5.6)
       recursive-readdir: 2.2.3
       sass: 1.97.3
-      sass-loader: 16.0.7(sass@1.97.3)(webpack@5.105.2)
-      strip-ansi: 7.1.2
-      style-loader: 4.0.0(webpack@5.105.2)
-      terser-webpack-plugin: 5.3.16(webpack@5.105.2)
-      thread-loader: 4.0.4(webpack@5.105.2)
-      ts-loader: 9.5.4(typescript@5.9.3)(webpack@5.105.2)
+      sass-loader: 16.0.7(sass@1.97.3)(webpack@5.105.3)
+      strip-ansi: 7.2.0
+      style-loader: 4.0.0(webpack@5.105.3)
+      terser-webpack-plugin: 5.3.16(webpack@5.105.3)
+      thread-loader: 4.0.4(webpack@5.105.3)
+      ts-loader: 9.5.4(typescript@5.9.3)(webpack@5.105.3)
       tsconfig-paths-webpack-plugin: 4.2.0
-      webpack: 5.105.2
-      webpack-manifest-plugin: 6.0.1(webpack@5.105.2)
-      workbox-webpack-plugin: 7.4.0(webpack@5.105.2)
+      webpack: 5.105.3
+      webpack-manifest-plugin: 6.0.1(webpack@5.105.3)
+      workbox-webpack-plugin: 7.4.0(webpack@5.105.3)
     transitivePeerDependencies:
       - '@rspack/core'
       - '@swc/core'
@@ -6892,7 +6898,7 @@ snapshots:
   '@ts-morph/common@0.11.1':
     dependencies:
       fast-glob: 3.3.3
-      minimatch: 3.1.3
+      minimatch: 3.1.5
       mkdirp: 1.0.4
       path-browserify: 1.0.1
 
@@ -6903,7 +6909,7 @@ snapshots:
 
   '@types/cors@2.8.19':
     dependencies:
-      '@types/node': 25.3.0
+      '@types/node': 25.3.2
 
   '@types/eslint-scope@3.7.7':
     dependencies:
@@ -6933,7 +6939,7 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@25.3.0':
+  '@types/node@25.3.2':
     dependencies:
       undici-types: 7.18.2
 
@@ -7008,7 +7014,7 @@ snapshots:
       '@typescript-eslint/types': 8.56.1
       '@typescript-eslint/visitor-keys': 8.56.1
       debug: 4.4.3
-      minimatch: 10.2.2
+      minimatch: 10.2.4
       semver: 7.7.4
       tinyglobby: 0.2.15
       ts-api-utils: 2.4.0(typescript@5.9.3)
@@ -7032,9 +7038,9 @@ snapshots:
       '@typescript-eslint/types': 8.56.1
       eslint-visitor-keys: 5.0.1
 
-  '@vercel/backends@0.0.37(rollup@2.80.0)(typescript@5.9.3)':
+  '@vercel/backends@0.0.39(rollup@2.80.0)(typescript@5.9.3)':
     dependencies:
-      '@vercel/build-utils': 13.5.0
+      '@vercel/build-utils': 13.6.1
       '@vercel/nft': 1.3.0(rollup@2.80.0)
       execa: 3.2.0
       fs-extra: 11.1.0
@@ -7059,13 +7065,13 @@ snapshots:
       throttleit: 2.1.0
       undici: 6.23.0
 
-  '@vercel/build-utils@13.5.0':
+  '@vercel/build-utils@13.6.1':
     dependencies:
-      '@vercel/python-analysis': 0.7.0
+      '@vercel/python-analysis': 0.8.1
 
-  '@vercel/cervel@0.0.24(rollup@2.80.0)(typescript@5.9.3)':
+  '@vercel/cervel@0.0.26(rollup@2.80.0)(typescript@5.9.3)':
     dependencies:
-      '@vercel/backends': 0.0.37(rollup@2.80.0)(typescript@5.9.3)
+      '@vercel/backends': 0.0.39(rollup@2.80.0)(typescript@5.9.3)
       typescript: 5.9.3
     transitivePeerDependencies:
       - encoding
@@ -7074,9 +7080,9 @@ snapshots:
 
   '@vercel/detect-agent@1.1.0': {}
 
-  '@vercel/elysia@0.1.40(rollup@2.80.0)':
+  '@vercel/elysia@0.1.42(rollup@2.80.0)':
     dependencies:
-      '@vercel/node': 5.6.7(rollup@2.80.0)
+      '@vercel/node': 5.6.9(rollup@2.80.0)
       '@vercel/static-config': 3.1.2
     transitivePeerDependencies:
       - encoding
@@ -7085,11 +7091,11 @@ snapshots:
 
   '@vercel/error-utils@2.0.3': {}
 
-  '@vercel/express@0.1.49(rollup@2.80.0)(typescript@5.9.3)':
+  '@vercel/express@0.1.51(rollup@2.80.0)(typescript@5.9.3)':
     dependencies:
-      '@vercel/cervel': 0.0.24(rollup@2.80.0)(typescript@5.9.3)
+      '@vercel/cervel': 0.0.26(rollup@2.80.0)(typescript@5.9.3)
       '@vercel/nft': 1.1.1(rollup@2.80.0)
-      '@vercel/node': 5.6.7(rollup@2.80.0)
+      '@vercel/node': 5.6.9(rollup@2.80.0)
       '@vercel/static-config': 3.1.2
       fs-extra: 11.1.0
       path-to-regexp: 8.3.0
@@ -7101,9 +7107,9 @@ snapshots:
       - supports-color
       - typescript
 
-  '@vercel/fastify@0.1.43(rollup@2.80.0)':
+  '@vercel/fastify@0.1.45(rollup@2.80.0)':
     dependencies:
-      '@vercel/node': 5.6.7(rollup@2.80.0)
+      '@vercel/node': 5.6.9(rollup@2.80.0)
       '@vercel/static-config': 3.1.2
     transitivePeerDependencies:
       - encoding
@@ -7138,29 +7144,29 @@ snapshots:
     dependencies:
       web-vitals: 0.2.4
 
-  '@vercel/gatsby-plugin-vercel-builder@2.0.139':
+  '@vercel/gatsby-plugin-vercel-builder@2.0.141':
     dependencies:
       '@sinclair/typebox': 0.25.24
-      '@vercel/build-utils': 13.5.0
+      '@vercel/build-utils': 13.6.1
       esbuild: 0.27.0
       etag: 1.8.1
       fs-extra: 11.1.0
 
-  '@vercel/go@3.4.2': {}
+  '@vercel/go@3.4.3': {}
 
-  '@vercel/h3@0.1.49(rollup@2.80.0)':
+  '@vercel/h3@0.1.51(rollup@2.80.0)':
     dependencies:
-      '@vercel/node': 5.6.7(rollup@2.80.0)
+      '@vercel/node': 5.6.9(rollup@2.80.0)
       '@vercel/static-config': 3.1.2
     transitivePeerDependencies:
       - encoding
       - rollup
       - supports-color
 
-  '@vercel/hono@0.2.43(rollup@2.80.0)':
+  '@vercel/hono@0.2.45(rollup@2.80.0)':
     dependencies:
       '@vercel/nft': 1.1.1(rollup@2.80.0)
-      '@vercel/node': 5.6.7(rollup@2.80.0)
+      '@vercel/node': 5.6.9(rollup@2.80.0)
       '@vercel/static-config': 3.1.2
       fs-extra: 11.1.0
       path-to-regexp: 8.3.0
@@ -7176,25 +7182,25 @@ snapshots:
       '@vercel/static-config': 3.1.2
       ts-morph: 12.0.0
 
-  '@vercel/koa@0.1.23(rollup@2.80.0)':
+  '@vercel/koa@0.1.25(rollup@2.80.0)':
     dependencies:
-      '@vercel/node': 5.6.7(rollup@2.80.0)
+      '@vercel/node': 5.6.9(rollup@2.80.0)
       '@vercel/static-config': 3.1.2
     transitivePeerDependencies:
       - encoding
       - rollup
       - supports-color
 
-  '@vercel/nestjs@0.2.44(rollup@2.80.0)':
+  '@vercel/nestjs@0.2.46(rollup@2.80.0)':
     dependencies:
-      '@vercel/node': 5.6.7(rollup@2.80.0)
+      '@vercel/node': 5.6.9(rollup@2.80.0)
       '@vercel/static-config': 3.1.2
     transitivePeerDependencies:
       - encoding
       - rollup
       - supports-color
 
-  '@vercel/next@4.15.33(rollup@2.80.0)':
+  '@vercel/next@4.15.36(rollup@2.80.0)':
     dependencies:
       '@vercel/nft': 1.1.1(rollup@2.80.0)
     transitivePeerDependencies:
@@ -7240,13 +7246,13 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/node@5.6.7(rollup@2.80.0)':
+  '@vercel/node@5.6.9(rollup@2.80.0)':
     dependencies:
       '@edge-runtime/node-utils': 2.3.0
       '@edge-runtime/primitives': 4.1.0
       '@edge-runtime/vm': 3.2.0
       '@types/node': 20.11.0
-      '@vercel/build-utils': 13.5.0
+      '@vercel/build-utils': 13.6.1
       '@vercel/error-utils': 2.0.3
       '@vercel/nft': 1.1.1(rollup@2.80.0)
       '@vercel/static-config': 3.1.2
@@ -7269,7 +7275,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/python-analysis@0.7.0':
+  '@vercel/python-analysis@0.8.1':
     dependencies:
       '@bytecodealliance/preview2-shim': 0.17.6
       '@renovatebot/pep440': 4.2.1
@@ -7280,9 +7286,9 @@ snapshots:
       smol-toml: 1.5.2
       zod: 3.22.4
 
-  '@vercel/python@6.16.0':
+  '@vercel/python@6.18.0':
     dependencies:
-      '@vercel/python-analysis': 0.7.0
+      '@vercel/python-analysis': 0.8.1
 
   '@vercel/redwood@2.4.9(rollup@2.80.0)':
     dependencies:
@@ -7295,7 +7301,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/remix-builder@5.5.10(rollup@2.80.0)':
+  '@vercel/remix-builder@5.6.0(rollup@2.80.0)':
     dependencies:
       '@vercel/error-utils': 2.0.3
       '@vercel/nft': 1.1.1(rollup@2.80.0)
@@ -7315,10 +7321,10 @@ snapshots:
       '@iarna/toml': 2.2.5
       execa: 5.1.1
 
-  '@vercel/static-build@2.8.41':
+  '@vercel/static-build@2.8.43':
     dependencies:
       '@vercel/gatsby-plugin-vercel-analytics': 1.0.11
-      '@vercel/gatsby-plugin-vercel-builder': 2.0.139
+      '@vercel/gatsby-plugin-vercel-builder': 2.0.141
       '@vercel/static-config': 3.1.2
       ts-morph: 12.0.0
 
@@ -7583,7 +7589,7 @@ snapshots:
 
   at-least-node@1.0.0: {}
 
-  autoprefixer@10.4.24(postcss@8.5.6):
+  autoprefixer@10.4.27(postcss@8.5.6):
     dependencies:
       browserslist: 4.28.1
       caniuse-lite: 1.0.30001774
@@ -7596,11 +7602,11 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.1.0
 
-  babel-loader@10.0.0(@babel/core@7.29.0)(webpack@5.105.2):
+  babel-loader@10.0.0(@babel/core@7.29.0)(webpack@5.105.3):
     dependencies:
       '@babel/core': 7.29.0
       find-up: 5.0.0
-      webpack: 5.105.2
+      webpack: 5.105.3
 
   babel-plugin-polyfill-corejs2@0.4.15(@babel/core@7.29.0):
     dependencies:
@@ -7672,7 +7678,11 @@ snapshots:
       balanced-match: 1.0.2
       concat-map: 0.0.1
 
-  brace-expansion@5.0.3:
+  brace-expansion@2.0.2:
+    dependencies:
+      balanced-match: 1.0.2
+
+  brace-expansion@5.0.4:
     dependencies:
       balanced-match: 4.0.4
 
@@ -7924,14 +7934,14 @@ snapshots:
 
   cookie@0.7.2: {}
 
-  copy-webpack-plugin@13.0.1(webpack@5.105.2):
+  copy-webpack-plugin@13.0.1(webpack@5.105.3):
     dependencies:
       glob-parent: 6.0.2
       normalize-path: 3.0.0
       schema-utils: 4.3.3
       serialize-javascript: 6.0.2
       tinyglobby: 0.2.15
-      webpack: 5.105.2
+      webpack: 5.105.3
 
   core-js-compat@3.48.0:
     dependencies:
@@ -7975,7 +7985,7 @@ snapshots:
       postcss-selector-parser: 7.1.1
       postcss-value-parser: 4.2.0
 
-  css-loader@7.1.4(webpack@5.105.2):
+  css-loader@7.1.4(webpack@5.105.3):
     dependencies:
       icss-utils: 5.1.0(postcss@8.5.6)
       postcss: 8.5.6
@@ -7986,7 +7996,7 @@ snapshots:
       postcss-value-parser: 4.2.0
       semver: 7.7.4
     optionalDependencies:
-      webpack: 5.105.2
+      webpack: 5.105.3
 
   css-prefers-color-scheme@11.0.0(postcss@8.5.6):
     dependencies:
@@ -8283,7 +8293,7 @@ snapshots:
   engine.io@6.6.5:
     dependencies:
       '@types/cors': 2.8.19
-      '@types/node': 25.3.0
+      '@types/node': 25.3.2
       accepts: 1.3.8
       base64id: 2.0.0
       cookie: 0.7.2
@@ -8502,7 +8512,7 @@ snapshots:
       hasown: 2.0.2
       is-core-module: 2.16.1
       is-glob: 4.0.3
-      minimatch: 3.1.3
+      minimatch: 3.1.5
       object.fromentries: 2.0.8
       object.groupby: 1.0.3
       object.values: 1.2.1
@@ -8565,7 +8575,7 @@ snapshots:
       is-glob: 4.0.3
       json-stable-stringify-without-jsonify: 1.0.1
       lodash.merge: 4.6.2
-      minimatch: 3.1.3
+      minimatch: 3.1.5
       natural-compare: 1.4.0
       optionator: 0.9.4
     optionalDependencies:
@@ -8684,17 +8694,17 @@ snapshots:
     dependencies:
       flat-cache: 4.0.1
 
-  file-loader@6.2.0(webpack@5.105.2):
+  file-loader@6.2.0(webpack@5.105.3):
     dependencies:
       loader-utils: 2.0.4
       schema-utils: 3.3.0
-      webpack: 5.105.2
+      webpack: 5.105.3
 
   file-uri-to-path@1.0.0: {}
 
-  filelist@1.0.5:
+  filelist@1.0.6:
     dependencies:
-      minimatch: 10.2.2
+      minimatch: 5.1.9
 
   filesize@11.0.13: {}
 
@@ -8866,14 +8876,14 @@ snapshots:
     dependencies:
       foreground-child: 3.3.1
       jackspeak: 4.2.3
-      minimatch: 10.2.2
+      minimatch: 10.2.4
       minipass: 7.1.3
       package-json-from-dist: 1.0.1
       path-scurry: 2.0.2
 
   glob@13.0.6:
     dependencies:
-      minimatch: 10.2.2
+      minimatch: 10.2.4
       minipass: 7.1.3
       path-scurry: 2.0.2
 
@@ -8964,7 +8974,7 @@ snapshots:
       relateurl: 0.2.7
       terser: 5.46.0
 
-  html-webpack-plugin@5.6.6(webpack@5.105.2):
+  html-webpack-plugin@5.6.6(webpack@5.105.3):
     dependencies:
       '@types/html-minifier-terser': 6.1.0
       html-minifier-terser: 6.1.0
@@ -8972,7 +8982,7 @@ snapshots:
       pretty-error: 4.0.0
       tapable: 2.3.0
     optionalDependencies:
-      webpack: 5.105.2
+      webpack: 5.105.3
 
   htmlparser2@6.1.0:
     dependencies:
@@ -9227,12 +9237,12 @@ snapshots:
   jake@10.9.4:
     dependencies:
       async: 3.2.6
-      filelist: 1.0.5
+      filelist: 1.0.6
       picocolors: 1.1.1
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 25.3.0
+      '@types/node': 25.3.2
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -9393,27 +9403,31 @@ snapshots:
 
   mimic-fn@2.1.0: {}
 
-  mini-css-extract-plugin@2.10.0(webpack@5.105.2):
+  mini-css-extract-plugin@2.10.0(webpack@5.105.3):
     dependencies:
       schema-utils: 4.3.3
       tapable: 2.3.0
-      webpack: 5.105.2
+      webpack: 5.105.3
 
   minimatch@10.1.1:
     dependencies:
       '@isaacs/brace-expansion': 5.0.1
 
-  minimatch@10.2.2:
+  minimatch@10.2.4:
     dependencies:
-      brace-expansion: 5.0.3
+      brace-expansion: 5.0.4
 
   minimatch@3.1.2:
     dependencies:
       brace-expansion: 1.1.12
 
-  minimatch@3.1.3:
+  minimatch@3.1.5:
     dependencies:
       brace-expansion: 1.1.12
+
+  minimatch@5.1.9:
+    dependencies:
+      brace-expansion: 2.0.2
 
   minimist@1.2.8: {}
 
@@ -9427,11 +9441,11 @@ snapshots:
 
   mkdirp@1.0.4: {}
 
-  moment-locales-webpack-plugin@1.2.0(moment@2.30.1)(webpack@5.105.2):
+  moment-locales-webpack-plugin@1.2.0(moment@2.30.1)(webpack@5.105.3):
     dependencies:
       lodash.difference: 4.5.0
       moment: 2.30.1
-      webpack: 5.105.2
+      webpack: 5.105.3
 
   moment-range@4.0.2(moment@2.30.1):
     dependencies:
@@ -9846,14 +9860,14 @@ snapshots:
       '@csstools/utilities': 3.0.0(postcss@8.5.6)
       postcss: 8.5.6
 
-  postcss-loader@8.2.1(postcss@8.5.6)(typescript@5.9.3)(webpack@5.105.2):
+  postcss-loader@8.2.1(postcss@8.5.6)(typescript@5.9.3)(webpack@5.105.3):
     dependencies:
       cosmiconfig: 9.0.0(typescript@5.9.3)
       jiti: 2.6.1
       postcss: 8.5.6
       semver: 7.7.4
     optionalDependencies:
-      webpack: 5.105.2
+      webpack: 5.105.3
     transitivePeerDependencies:
       - typescript
 
@@ -10042,7 +10056,7 @@ snapshots:
       '@csstools/postcss-text-decoration-shorthand': 5.0.3(postcss@8.5.6)
       '@csstools/postcss-trigonometric-functions': 5.0.1(postcss@8.5.6)
       '@csstools/postcss-unset-value': 5.0.0(postcss@8.5.6)
-      autoprefixer: 10.4.24(postcss@8.5.6)
+      autoprefixer: 10.4.27(postcss@8.5.6)
       browserslist: 4.28.1
       css-blank-pseudo: 8.0.1(postcss@8.5.6)
       css-has-pseudo: 8.0.0(postcss@8.5.6)
@@ -10206,7 +10220,7 @@ snapshots:
 
   recursive-readdir@2.2.3:
     dependencies:
-      minimatch: 3.1.3
+      minimatch: 3.1.5
 
   reflect.getprototypeof@1.0.10:
     dependencies:
@@ -10296,7 +10310,7 @@ snapshots:
   resp-modifier@6.0.2:
     dependencies:
       debug: 2.6.9
-      minimatch: 3.1.3
+      minimatch: 3.1.5
     transitivePeerDependencies:
       - supports-color
 
@@ -10360,12 +10374,12 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  sass-loader@16.0.7(sass@1.97.3)(webpack@5.105.2):
+  sass-loader@16.0.7(sass@1.97.3)(webpack@5.105.3):
     dependencies:
       neo-async: 2.6.2
     optionalDependencies:
       sass: 1.97.3
-      webpack: 5.105.2
+      webpack: 5.105.3
 
   sass@1.97.3:
     dependencies:
@@ -10662,7 +10676,7 @@ snapshots:
     dependencies:
       eastasianwidth: 0.2.0
       emoji-regex: 9.2.2
-      strip-ansi: 7.1.2
+      strip-ansi: 7.2.0
 
   string.prototype.matchall@4.0.12:
     dependencies:
@@ -10713,7 +10727,7 @@ snapshots:
     dependencies:
       ansi-regex: 5.0.1
 
-  strip-ansi@7.1.2:
+  strip-ansi@7.2.0:
     dependencies:
       ansi-regex: 6.2.2
 
@@ -10727,9 +10741,9 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  style-loader@4.0.0(webpack@5.105.2):
+  style-loader@4.0.0(webpack@5.105.3):
     dependencies:
-      webpack: 5.105.2
+      webpack: 5.105.3
 
   stylehacks@7.0.7(postcss@8.5.6):
     dependencies:
@@ -10784,14 +10798,14 @@ snapshots:
       type-fest: 0.16.0
       unique-string: 2.0.0
 
-  terser-webpack-plugin@5.3.16(webpack@5.105.2):
+  terser-webpack-plugin@5.3.16(webpack@5.105.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       jest-worker: 27.5.1
       schema-utils: 4.3.3
       serialize-javascript: 6.0.2
       terser: 5.46.0
-      webpack: 5.105.2
+      webpack: 5.105.3
 
   terser@5.46.0:
     dependencies:
@@ -10800,13 +10814,13 @@ snapshots:
       commander: 2.20.3
       source-map-support: 0.5.21
 
-  thread-loader@4.0.4(webpack@5.105.2):
+  thread-loader@4.0.4(webpack@5.105.3):
     dependencies:
       json-parse-better-errors: 1.0.2
       loader-runner: 4.3.1
       neo-async: 2.6.2
       schema-utils: 4.3.3
-      webpack: 5.105.2
+      webpack: 5.105.3
 
   throttleit@2.1.0: {}
 
@@ -10841,7 +10855,7 @@ snapshots:
     dependencies:
       typescript: 5.9.3
 
-  ts-loader@9.5.4(typescript@5.9.3)(webpack@5.105.2):
+  ts-loader@9.5.4(typescript@5.9.3)(webpack@5.105.3):
     dependencies:
       chalk: 4.1.2
       enhanced-resolve: 5.19.0
@@ -10849,7 +10863,7 @@ snapshots:
       semver: 7.7.4
       source-map: 0.7.6
       typescript: 5.9.3
-      webpack: 5.105.2
+      webpack: 5.105.3
 
   ts-morph@12.0.0:
     dependencies:
@@ -11015,30 +11029,30 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vercel@50.23.1(rollup@2.80.0)(typescript@5.9.3):
+  vercel@50.25.1(rollup@2.80.0)(typescript@5.9.3):
     dependencies:
-      '@vercel/backends': 0.0.37(rollup@2.80.0)(typescript@5.9.3)
+      '@vercel/backends': 0.0.39(rollup@2.80.0)(typescript@5.9.3)
       '@vercel/blob': 2.3.0
-      '@vercel/build-utils': 13.5.0
+      '@vercel/build-utils': 13.6.1
       '@vercel/detect-agent': 1.1.0
-      '@vercel/elysia': 0.1.40(rollup@2.80.0)
-      '@vercel/express': 0.1.49(rollup@2.80.0)(typescript@5.9.3)
-      '@vercel/fastify': 0.1.43(rollup@2.80.0)
+      '@vercel/elysia': 0.1.42(rollup@2.80.0)
+      '@vercel/express': 0.1.51(rollup@2.80.0)(typescript@5.9.3)
+      '@vercel/fastify': 0.1.45(rollup@2.80.0)
       '@vercel/fun': 1.3.0
-      '@vercel/go': 3.4.2
-      '@vercel/h3': 0.1.49(rollup@2.80.0)
-      '@vercel/hono': 0.2.43(rollup@2.80.0)
+      '@vercel/go': 3.4.3
+      '@vercel/h3': 0.1.51(rollup@2.80.0)
+      '@vercel/hono': 0.2.45(rollup@2.80.0)
       '@vercel/hydrogen': 1.3.5
-      '@vercel/koa': 0.1.23(rollup@2.80.0)
-      '@vercel/nestjs': 0.2.44(rollup@2.80.0)
-      '@vercel/next': 4.15.33(rollup@2.80.0)
-      '@vercel/node': 5.6.7(rollup@2.80.0)
-      '@vercel/python': 6.16.0
+      '@vercel/koa': 0.1.25(rollup@2.80.0)
+      '@vercel/nestjs': 0.2.46(rollup@2.80.0)
+      '@vercel/next': 4.15.36(rollup@2.80.0)
+      '@vercel/node': 5.6.9(rollup@2.80.0)
+      '@vercel/python': 6.18.0
       '@vercel/redwood': 2.4.9(rollup@2.80.0)
-      '@vercel/remix-builder': 5.5.10(rollup@2.80.0)
+      '@vercel/remix-builder': 5.6.0(rollup@2.80.0)
       '@vercel/ruby': 2.3.2
       '@vercel/rust': 1.0.5
-      '@vercel/static-build': 2.8.41
+      '@vercel/static-build': 2.8.43
       chokidar: 4.0.0
       esbuild: 0.27.0
       form-data: 4.0.5
@@ -11062,10 +11076,10 @@ snapshots:
 
   webidl-conversions@4.0.2: {}
 
-  webpack-manifest-plugin@6.0.1(webpack@5.105.2):
+  webpack-manifest-plugin@6.0.1(webpack@5.105.3):
     dependencies:
       tapable: 2.3.0
-      webpack: 5.105.2
+      webpack: 5.105.3
       webpack-sources: 3.3.4
 
   webpack-sources@1.4.3:
@@ -11075,7 +11089,7 @@ snapshots:
 
   webpack-sources@3.3.4: {}
 
-  webpack@5.105.2:
+  webpack@5.105.3:
     dependencies:
       '@types/eslint-scope': 3.7.7
       '@types/estree': 1.0.8
@@ -11099,7 +11113,7 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 4.3.3
       tapable: 2.3.0
-      terser-webpack-plugin: 5.3.16(webpack@5.105.2)
+      terser-webpack-plugin: 5.3.16(webpack@5.105.3)
       watchpack: 2.5.1
       webpack-sources: 3.3.4
     transitivePeerDependencies:
@@ -11283,12 +11297,12 @@ snapshots:
 
   workbox-sw@7.4.0: {}
 
-  workbox-webpack-plugin@7.4.0(webpack@5.105.2):
+  workbox-webpack-plugin@7.4.0(webpack@5.105.3):
     dependencies:
       fast-json-stable-stringify: 2.1.0
       pretty-bytes: 5.6.0
       upath: 1.2.0
-      webpack: 5.105.2
+      webpack: 5.105.3
       webpack-sources: 1.4.3
       workbox-build: 7.4.0
     transitivePeerDependencies:
@@ -11310,7 +11324,7 @@ snapshots:
     dependencies:
       ansi-styles: 6.2.3
       string-width: 5.1.2
-      strip-ansi: 7.1.2
+      strip-ansi: 7.2.0
 
   wrappy@1.0.2: {}
 

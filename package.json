@@ -34,11 +34,11 @@
     "browser-sync": "^3.0.4",
     "concurrently": "^9.2.1",
     "eslint": "^9.39.4",
-    "eslint-config-henderea": "^2.0.120",
+    "eslint-config-henderea": "^2.0.122",
     "eslint-plugin-import": "^2.32.0",
     "globals": "^17.5.0",
     "serve": "^14.2.6",
-    "typescript": "^6.0.2",
+    "typescript": "^6.0.3",
     "typescript-eslint": "^8.58.2",
     "vercel": "^51.2.1"
   },

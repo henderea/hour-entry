@@ -25,14 +25,14 @@
     "url": "git+https://github.com/henderea/hour-entry.git"
   },
   "devDependencies": {
-    "@henderea/static-site-builder": "^1.11.35",
+    "@henderea/static-site-builder": "^1.12.2",
     "@stylistic/eslint-plugin": "^5.10.0",
-    "@types/jquery": "^4.0.0",
+    "@types/jquery": "^4.0.1",
     "@types/lodash": "^4.17.24",
     "@typescript-eslint/eslint-plugin": "^8.62.0",
     "@typescript-eslint/parser": "^8.62.0",
     "browser-sync": "^3.0.4",
-    "concurrently": "^9.2.1",
+    "concurrently": "^10.0.3",
     "eslint": "^9.39.4",
     "eslint-config-henderea": "^2.0.126",
     "eslint-plugin-import": "^2.32.0",
@@ -40,7 +40,7 @@
     "serve": "^14.2.6",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.62.0",
-    "vercel": "^53.2.0"
+    "vercel": "^54.15.1"
   },
   "dependencies": {
     "idb": "^8.0.3",
@@ -48,7 +48,7 @@
     "lodash": "^4.18.1",
     "moment": "^2.30.1",
     "moment-range": "^4.0.2",
-    "query-string": "^9.3.1"
+    "query-string": "^9.4.0"
   },
   "htmlMeta": {
     "type": "website",
@@ -59,14 +59,5 @@
     "image": null,
     "themeColor": "#000000"
   },
-  "homepage": "./",
-  "pnpm": {
-    "ignoredBuiltDependencies": [
-      "@parcel/watcher"
-    ],
-    "onlyBuiltDependencies": [
-      "es5-ext",
-      "esbuild"
-    ]
-  }
+  "homepage": "./"
 }

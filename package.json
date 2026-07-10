@@ -40,7 +40,7 @@
     "serve": "^14.2.6",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.63.0",
-    "vercel": "^54.21.1"
+    "vercel": "^55.0.0"
   },
   "dependencies": {
     "idb": "^8.0.3",

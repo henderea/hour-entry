@@ -25,7 +25,7 @@
     "url": "git+https://github.com/henderea/hour-entry.git"
   },
   "devDependencies": {
-    "@henderea/static-site-builder": "^1.12.4",
+    "@henderea/static-site-builder": "^1.12.5",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@types/jquery": "^4.0.1",
     "@types/lodash": "^4.17.24",
@@ -40,7 +40,7 @@
     "serve": "^14.2.6",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.64.0",
-    "vercel": "^55.0.0"
+    "vercel": "^56.2.0"
   },
   "dependencies": {
     "idb": "^8.0.3",
